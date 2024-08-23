@@ -12,9 +12,11 @@ namespace LibraryManagment.Data
         }
 
         #region DbSets
-        public DbSet<Members> Members { get; set; }
-        public DbSet<Books> Books { get; set; }
-        public DbSet<LoansBooks> LoansBooks { get; set; }
+
+        public DbSet<Member> Member { get; set; }
+        public DbSet<Book> Book { get; set; }
+
+        public DbSet<LoansBook> LoansBooks { get; set; }
         #endregion
 
         #region OnModelCreating
@@ -22,15 +24,15 @@ namespace LibraryManagment.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<LoansBooks>(x => x.HasKey(l => new { l.MemberId, l.BookId }));
+            modelBuilder.Entity<LoansBook>(x => x.HasKey(l => new { l.MemberId, l.BookId }));
 
-            modelBuilder.Entity<LoansBooks>()
+            modelBuilder.Entity<LoansBook>()
                         .HasOne(l => l.Member)
                         .WithMany(m => m.Loans)
                         .HasForeignKey(l => l.MemberId);
 
-            modelBuilder.Entity<LoansBooks>()
-                        .HasOne(b => b.Books)
+            modelBuilder.Entity<LoansBook>()
+                        .HasOne(b => b.Book)
                         .WithMany(b => b.Loans)
                         .HasForeignKey(l => l.BookId);
         }

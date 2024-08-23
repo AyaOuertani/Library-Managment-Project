@@ -12,7 +12,7 @@
         public DateTime  PublishDate { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set; }
-        public ICollection<LoansBooks> Loans { get; set; }
+        public ICollection<LoansBook> Loans { get; set; }
 
     }
 }

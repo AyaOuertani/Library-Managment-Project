@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "D:\\Intrenship\\Project\\Library Managment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|d:\\intrenship\\project\\library managment\\library managment project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|d:\\intrenship\\project\\library managment\\library managment project\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|d:\\intrenship\\project\\library managment\\library managment project\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|d:\\intrenship\\project\\library managment\\library managment project\\entities\\loansbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\entities\\loansbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|d:\\intrenship\\project\\library managment\\library managment project\\entities\\loansbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\entities\\loansbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|d:\\intrenship\\project\\library managment\\library managment project\\library managment project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\library managment project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|d:\\intrenship\\project\\library managment\\library managment project\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|d:\\intrenship\\project\\library managment\\library managment project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,66 +34,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Member.cs",
-              "DocumentMoniker": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Entities\\Member.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Entities\\Member.cs",
-              "ToolTip": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Entities\\Member.cs",
-              "RelativeToolTip": "Library Managment Project\\Entities\\Member.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T16:29:37.916Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Library Managment Project\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Library Managment Project\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-23T14:34:14.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Program.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Program.cs",
-              "ToolTip": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Program.cs",
-              "RelativeToolTip": "Library Managment Project\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAD4vwsAAABzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T14:22:37.004Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ApplicationDBcontext.cs",
               "DocumentMoniker": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Data\\ApplicationDBcontext.cs",
               "RelativeDocumentMoniker": "Library Managment Project\\Data\\ApplicationDBcontext.cs",
               "ToolTip": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Data\\ApplicationDBcontext.cs",
               "RelativeToolTip": "Library Managment Project\\Data\\ApplicationDBcontext.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAAB8AAAAtAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABQAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T14:11:07.098Z",
+              "WhenOpened": "2024-08-23T16:42:31.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "Member.cs",
+              "DocumentMoniker": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Entities\\Member.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Entities\\Member.cs",
+              "ToolTip": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Entities\\Member.cs",
+              "RelativeToolTip": "Library Managment Project\\Entities\\Member.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:29:37.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Program.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Program.cs",
+              "ToolTip": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Program.cs",
+              "RelativeToolTip": "Library Managment Project\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAIwBIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T14:22:37.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\appsettings.json",
               "RelativeDocumentMoniker": "Library Managment Project\\appsettings.json",
@@ -109,54 +101,34 @@
               "RelativeToolTip": "Library Managment Project\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-23T13:55:13.96Z"
+              "WhenOpened": "2024-08-23T13:55:13.96Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoansBooks.cs",
-              "DocumentMoniker": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Entities\\LoansBooks.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Entities\\LoansBooks.cs",
-              "ToolTip": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Entities\\LoansBooks.cs",
-              "RelativeToolTip": "Library Managment Project\\Entities\\LoansBooks.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "DocumentIndex": 2,
+              "Title": "LoansBook.cs",
+              "DocumentMoniker": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Entities\\LoansBook.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Entities\\LoansBook.cs",
+              "ToolTip": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Entities\\LoansBook.cs",
+              "RelativeToolTip": "Library Managment Project\\Entities\\LoansBook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-23T13:55:13.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Entities\\Book.cs",
               "RelativeDocumentMoniker": "Library Managment Project\\Entities\\Book.cs",
               "ToolTip": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Entities\\Book.cs",
               "RelativeToolTip": "Library Managment Project\\Entities\\Book.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA3wBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-23T13:55:11.649Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Library Managment Project.csproj",
-              "DocumentMoniker": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Library Managment Project.csproj",
-              "RelativeDocumentMoniker": "Library Managment Project\\Library Managment Project.csproj",
-              "ToolTip": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Library Managment Project.csproj",
-              "RelativeToolTip": "Library Managment Project\\Library Managment Project.csproj",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAwBgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-23T13:55:08.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }
