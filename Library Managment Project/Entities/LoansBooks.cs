@@ -1,4 +1,6 @@
-﻿namespace Library_Managment_Project.Entities
+﻿using Library_Managment_Project.Enum;
+
+namespace Library_Managment_Project.Entities
 {
     public class LoansBooks
     {
@@ -8,12 +10,6 @@
         public int BookId { get; set; }
         public Book? Books { get; set; }
         public int MemberId { get; set; }
-        public Members? Members { get; set; }
-    }
-    public enum StatusOfLoans
-    {
-        Pending,
-        Returned,
-        Overdue
+        public Member? Members { get; set; }
     }
 }
