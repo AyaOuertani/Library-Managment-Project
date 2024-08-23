@@ -6,7 +6,7 @@
         public DateTime DateOfReturn { get; set; }
         public StatusOfLoans LoanStatus { get; set; }
         public int BookId { get; set; }
-        public Books? Books { get; set; }
+        public Book? Books { get; set; }
         public int MemberId { get; set; }
         public Member? Member { get; set; }
     }

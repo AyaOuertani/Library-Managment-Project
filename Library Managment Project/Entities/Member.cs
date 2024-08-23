@@ -5,5 +5,6 @@ namespace Library_Managment_Project.Entities
     public class Member : User
     {
         public MemberShipType MemberShipType { get; set; }
+        public ICollection<LoansBooks> Loans { get; set; }
     }
 }

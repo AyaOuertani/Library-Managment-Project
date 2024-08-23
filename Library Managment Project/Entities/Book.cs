@@ -1,6 +1,6 @@
 ﻿namespace Library_Managment_Project.Entities
 {
-    public class Books
+    public class Book
     {
         public string ID { get; set; }
         public string Title { get; set; }
