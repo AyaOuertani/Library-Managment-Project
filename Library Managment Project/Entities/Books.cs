@@ -1,0 +1,18 @@
+﻿namespace Library_Managment_Project.Entities
+{
+    public class Books
+    {
+        public string ID { get; set; }
+        public string Title { get; set; }
+        public int Code {  get; set; }
+        public string Auther { get; set; }
+        public int Qte { get; set; }
+        public string About { get; set; }
+        public string Category { get; set; }
+        public DateTime  PublishDate { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime UpdatedDate { get; set; }
+        public ICollection<LoansBooks> Loans { get; set; }
+
+    }
+}
