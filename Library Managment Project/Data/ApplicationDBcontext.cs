@@ -12,8 +12,8 @@ namespace LibraryManagment.Data
         }
 
         #region DbSets
-        public DbSet<Members> Members { get; set; }
-        public DbSet<Books> Books { get; set; }
+        public DbSet<Member> Members { get; set; }
+        public DbSet<Book> Books { get; set; }
         public DbSet<LoansBooks> LoansBooks { get; set; }
         #endregion
 
@@ -25,7 +25,7 @@ namespace LibraryManagment.Data
             modelBuilder.Entity<LoansBooks>(x => x.HasKey(l => new { l.MemberId, l.BookId }));
 
             modelBuilder.Entity<LoansBooks>()
-                        .HasOne(l => l.Members)
+                        .HasOne(l => l.Member)
                         .WithMany(m => m.Loans)
                         .HasForeignKey(l => l.MemberId);
 

@@ -1,0 +1,141 @@
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\appsettings.Development.json
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\appsettings.json
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Library Managment Project.exe
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Library Managment Project.deps.json
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Library Managment Project.runtimeconfig.json
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Library Managment Project.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Library Managment Project.pdb
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Humanizer.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.CodeDom.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\Library Managment Project.csproj.AssemblyReference.cache
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\Library Managment Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\Library Managment Project.AssemblyInfoInputs.cache
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\Library Managment Project.AssemblyInfo.cs
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\Library Managment Project.csproj.CoreCompileInputs.cache
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\Library Managment Project.MvcApplicationPartsAssemblyInfo.cs
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\Library Managment Project.MvcApplicationPartsAssemblyInfo.cache
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\Library Managment Project.sourcelink.json
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\staticwebassets.build.json
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\staticwebassets.development.json
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\staticwebassets\msbuild.Library Managment Project.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\staticwebassets\msbuild.build.Library Managment Project.props
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Library Managment Project.props
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Library Managment Project.props
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\scopedcss\bundle\Library Managment Project.styles.css
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\Library .192F2431.Up2Date
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\Library Managment Project.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\refint\Library Managment Project.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\Library Managment Project.pdb
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\Library Managment Project.genruntimeconfig.cache
+D:\Intrenship\Project\Library Managment\Library Managment Project\obj\Debug\net8.0\ref\Library Managment Project.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Azure.Core.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Azure.Identity.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
