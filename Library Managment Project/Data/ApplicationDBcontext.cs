@@ -12,8 +12,8 @@ namespace LibraryManagment.Data
         }
 
         #region DbSets
-        public DbSet<Member> Members { get; set; }
-        public DbSet<Book> Books { get; set; }
+        public DbSet<Members> Members { get; set; }
+        public DbSet<Books> Books { get; set; }
         public DbSet<LoansBooks> LoansBooks { get; set; }
         #endregion
 
