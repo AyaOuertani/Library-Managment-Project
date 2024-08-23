@@ -8,7 +8,7 @@
         public int BookId { get; set; }
         public Books? Books { get; set; }
         public int MemberId { get; set; }
-        public Member? Member { get; set; }
+        public Members? Members { get; set; }
     }
     public enum StatusOfLoans
     {
