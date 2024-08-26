@@ -1,13 +1,9 @@
 ﻿using Library_Managment_Project.DTOs.BookDTOs;
-using Library_Managment_Project.Interface;
 using Library_Managment_Project.Entities;
+using Library_Managment_Project.Interface;
+using Library_Managment_Project.Models;
 using LibraryManagment.Data;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
-using System.ComponentModel;
-using System.Diagnostics;
-using Microsoft.AspNetCore.Routing.Constraints;
-using Microsoft.AspNetCore.Mvc;
 
 namespace Library_Managment_Project.Service
 {
@@ -19,6 +15,25 @@ namespace Library_Managment_Project.Service
         #endregion
 
         #region Get
+
+        #region All
+        public async Task<PaginatedList<GetAllBooksResponce>> GetAllAsync(int pageNumber, int pageSize)
+        {
+            List<GetAllBooksResponce> books = await _dbcontext.Book.Skip((pageNumber - 1) * pageSize)
+                                                                   .Take(pageSize)
+                                                                   .Select(b => new GetAllBooksResponce(b.Title,
+                                                                                                        b.Code,
+                                                                                                        b.Auther,
+                                                                                                        b.Qte,
+                                                                                                        b.About,
+                                                                                                        b.Category,
+                                                                                                        b.PublishDate)).ToListAsync();
+            int count = await _dbcontext.Book.CountAsync();
+            int totalPages = (int)Math.Ceiling(count / (double)pageSize);
+            return new PaginatedList<GetAllBooksResponce>(books, pageNumber, totalPages);
+        }
+        #endregion
+
 
         #region ByCode
         public async Task<GetBookByCodeResponse> GetByCodeAsync(int code)
@@ -42,7 +57,7 @@ namespace Library_Managment_Project.Service
         public async Task<GetBookByTitleResponse> GetByTitleAsync(string title)
         {
             Book? searchedBook = await _dbcontext.Book.FirstOrDefaultAsync(bookSelected => bookSelected.Title.ToUpper() == title.ToUpper());
-            if (searchedBook == null) 
+            if (searchedBook == null)
                 throw new KeyNotFoundException("Book Not Found");
             return new GetBookByTitleResponse(searchedBook.Id, 
                                               searchedBook.Code, 
@@ -72,17 +87,17 @@ namespace Library_Managment_Project.Service
                                                searchedBoook.CreatedDate, 
                                                searchedBoook.UpdatedDate);
         }
+
         #endregion
 
         #region ByAvailability
-        public async Task<IEnumerable<GetBookByAvailabilityResponce>> GetByAvailabilityAsync()
+        public async Task<PaginatedList<GetBookByAvailabilityResponce>> GetByAvailabilityAsync(int pageNumber, int pageSize)
         {
             List<Book> availableBooks = await _dbcontext.Book.Where(b => b.Qte > 0).ToListAsync();
             return availableBooks.Count == 0
                 ? throw new KeyNotFoundException("Not Found")
                 : (IEnumerable<GetBookByAvailabilityResponce>) availableBooks.Select(b => new GetBookByAvailabilityResponce(b.Id, b.Title, b.Code, b.Auther, b.Qte, b.About, b.Category, b.PublishDate, b.CreatedDate, b.UpdatedDate));
 
-        }
         #endregion
 
         #endregion
@@ -144,7 +159,7 @@ namespace Library_Managment_Project.Service
         #endregion
 
         #region Delete
-        public async Task<bool> DeleteAsync (string id)
+        public async Task<bool> DeleteAsync(string id)
         {
             Book? bookInDb = await _dbcontext.Book.FindAsync(id);
             if (bookInDb == null)
@@ -153,6 +168,7 @@ namespace Library_Managment_Project.Service
             await _dbcontext.SaveChangesAsync();
             return true;
         }
-    }
         #endregion
+    }
+
 }
