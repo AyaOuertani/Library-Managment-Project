@@ -3,3 +3,8 @@
 ################################################################################
 
 /.vs/Library Managment/FileContentIndex
+/Library Managment Project/Migrations/20240824102744_init.cs
+/Library Managment Project/Migrations/20240824102744_init.Designer.cs
+/Library Managment Project/Migrations/20240826154520_initial migration.cs
+/Library Managment Project/Migrations/20240826154520_initial migration.Designer.cs
+/Library Managment Project/Migrations/ApplicationDBcontextModelSnapshot.cs
