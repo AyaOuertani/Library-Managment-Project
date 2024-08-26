@@ -19,12 +19,12 @@ namespace Library_Managment_Project.Service
         #region Get
 
         #region All
-        public async Task<PaginatedList<GetAllMembersResponce>> GetAllAsync(int pageNumber, int pageSize)
+        public async Task<PaginatedList<GetAllMembersResponse>> GetAllAsync(int pageNumber, int pageSize)
         {
-            List<GetAllMembersResponce> members = await _dbcontext.Member.Include(loan => loan.Loans)
+            List<GetAllMembersResponse> members = await _dbcontext.Member.Include(loan => loan.Loans)
                                                                          .Skip((pageNumber - 1) * pageSize)
                                                                          .Take(pageSize)
-                                                                         .Select(memberSelected => new GetAllMembersResponce(memberSelected.MemberCode,
+                                                                         .Select(memberSelected => new GetAllMembersResponse(memberSelected.MemberCode,
                                                                                                                              memberSelected.FirstName,
                                                                                                                              memberSelected.LastName,
                                                                                                                              memberSelected.Email,
@@ -35,26 +35,26 @@ namespace Library_Managment_Project.Service
                                                                                                                              memberSelected.UpdateAt)).ToListAsync();
             int count = members.Count();
             int totalPages = (int)Math.Ceiling(count / (double)pageSize);
-            return new PaginatedList<GetAllMembersResponce>(members, pageNumber, totalPages);
+            return new PaginatedList<GetAllMembersResponse>(members, pageNumber, totalPages);
 
         }
         #endregion
 
         #region ByNumber
-        public async Task<GetMemberByNumberResponce> GetByNumberAsync(long number)
+        public async Task<GetMemberByNumberResponse> GetByNumberAsync(long number)
         {
             Member? selectedMember = await _dbcontext.Member.Include(m => m.Loans)
                                                             .ThenInclude(loan => loan.Book)
                                                             .FirstOrDefaultAsync(m => m.MemberCode == number);
             if (selectedMember == null)
                 throw new KeyNotFoundException("Member Not Found!");
-            List<GetLoanedBooksResponce> loanedBooks = selectedMember.Loans.Select(loan => new GetLoanedBooksResponce(loan.Book.Title,
+            List<GetLoanedBooksResponse> loanedBooks = selectedMember.Loans.Select(loan => new GetLoanedBooksResponse(loan.Book.Title,
                                                                                                                        loan.Book.Code,
                                                                                                                        loan.Book.Auther,
                                                                                                                        loan.LoanStatus,
                                                                                                                        loan.DateOfLoan,
                                                                                                                        loan.DateOfReturn)).ToList();
-            return new GetMemberByNumberResponce(selectedMember.FirstName,
+            return new GetMemberByNumberResponse(selectedMember.FirstName,
                                                   selectedMember.LastName,
                                                   selectedMember.Email,
                                                   selectedMember.phone,
@@ -67,7 +67,7 @@ namespace Library_Managment_Project.Service
         #endregion
 
         #region GetLoanedBook
-        public async Task<PaginatedList<GetLoanedBooksResponce>> GetLoanedAsync(string memberId, int pageNumber, int pageSize)
+        public async Task<PaginatedList<GetLoanedBooksResponse>> GetLoanedAsync(int memberId, int pageNumber, int pageSize)
         {
             List<LoansBook> loanedBook = await _dbcontext.LoansBooks.Include(loanSelected => loanSelected.Book)
                                                                    .Include(loanSelected => loanSelected.Member)
@@ -77,7 +77,7 @@ namespace Library_Managment_Project.Service
                                                                    .Take(pageSize)
                                                                    .ToListAsync();
 
-            List<GetLoanedBooksResponce> responseList = loanedBook.Select(loanSelected => new GetLoanedBooksResponce(loanSelected.Book.Title,
+            List<GetLoanedBooksResponse> responseList = loanedBook.Select(loanSelected => new GetLoanedBooksResponse(loanSelected.Book.Title,
                                                                                                                       loanSelected.Book.Code,
                                                                                                                       loanSelected.Book.Auther,
                                                                                                                       loanSelected.LoanStatus,
@@ -86,13 +86,13 @@ namespace Library_Managment_Project.Service
                                                                                                                       )).ToList();
             int count = loanedBook.Count();
             int totalPages = (int)Math.Ceiling(count / (double)pageSize);
-            return new PaginatedList<GetLoanedBooksResponce>(responseList, pageNumber, pageSize);
+            return new PaginatedList<GetLoanedBooksResponse>(responseList, pageNumber, pageSize);
         }
 
         #endregion
 
         #region GetCurrentLoans
-        public async Task<PaginatedList<GetCurrentLoansResponce>> GetCurrentLoansAsync(string memeberId, int pageNumber, int pageSize)
+        public async Task<PaginatedList<GetCurrentLoansResponse>> GetCurrentLoansAsync(int memeberId, int pageNumber, int pageSize)
         {
             List<LoansBook> loanedBook = await _dbcontext.LoansBooks.Include(loanSelected => loanSelected.Book)
                                                                    .Include(loanSelected => loanSelected.Member)
@@ -101,7 +101,7 @@ namespace Library_Managment_Project.Service
                                                                    .Skip((pageNumber - 1) * pageSize)
                                                                    .Take(pageSize)
                                                                    .ToListAsync();
-            List<GetCurrentLoansResponce> responseList = loanedBook.Select(loanSelected => new GetCurrentLoansResponce(loanSelected.Book.Title,
+            List<GetCurrentLoansResponse> responseList = loanedBook.Select(loanSelected => new GetCurrentLoansResponse(loanSelected.Book.Title,
                                                                                                                      loanSelected.Book.Code,
                                                                                                                      loanSelected.Book.Auther,
                                                                                                                      loanSelected.LoanStatus,
@@ -109,7 +109,7 @@ namespace Library_Managment_Project.Service
                                                                                                                      loanSelected.DateOfReturn)).ToList();
             int count = loanedBook.Count();
             int totalPages = (int)Math.Ceiling(count / (double)pageSize);
-            return new PaginatedList<GetCurrentLoansResponce>(responseList, pageNumber, pageSize);
+            return new PaginatedList<GetCurrentLoansResponse>(responseList, pageNumber, pageSize);
 
         }
         #endregion
@@ -117,7 +117,7 @@ namespace Library_Managment_Project.Service
         #endregion
 
         #region Add
-        public async Task<AddMemberResponce> AddAsync(AddMemberRequest request)
+        public async Task<AddMemberResponse> AddAsync(AddMemberRequest request)
         {
             Member newMember = new Member
             {
@@ -133,14 +133,14 @@ namespace Library_Managment_Project.Service
             };
             _dbcontext.Member.Add(newMember);
             await _dbcontext.SaveChangesAsync();
-            return new AddMemberResponce(newMember.MemberCode, newMember.FirstName, newMember.LastName, newMember.Email, newMember.Password, newMember.phone, newMember.CreateAt, newMember.UpdateAt);
+            return new AddMemberResponse(newMember.MemberCode, newMember.FirstName, newMember.LastName, newMember.Email, newMember.Password, newMember.phone, newMember.CreateAt, newMember.UpdateAt);
 
         }
 
         #endregion
 
         #region Update
-        public async Task<UpdateMemberResponce> UpdateAsync(UpdateMemberRequest memberRequest)
+        public async Task<UpdateMemberResponse> UpdateAsync(UpdateMemberRequest memberRequest)
         {
             Member member = _dbcontext.Member.Find(memberRequest.MemberNumber)
                                               ?? throw new KeyNotFoundException("Memeber Not Found");
@@ -151,7 +151,7 @@ namespace Library_Managment_Project.Service
             member.MemberShipType = memberRequest.MemberShipType;
             member.UpdateAt = DateTime.Now;
             await _dbcontext.SaveChangesAsync();
-            return new UpdateMemberResponce(member.MemberCode, 
+            return new UpdateMemberResponse(member.MemberCode, 
                                             member.FirstName,
                                             member.LastName, 
                                             member.Email, 

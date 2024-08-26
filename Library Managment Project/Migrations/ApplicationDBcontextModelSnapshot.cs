@@ -24,8 +24,11 @@ namespace Library_Managment_Project.Migrations
 
             modelBuilder.Entity("Library_Managment_Project.Entities.Admin", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("CreateAt")
                         .HasColumnType("datetime2");
@@ -55,8 +58,11 @@ namespace Library_Managment_Project.Migrations
 
             modelBuilder.Entity("Library_Managment_Project.Entities.Book", b =>
                 {
-                    b.Property<string>("ID")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("About")
                         .IsRequired()
@@ -96,8 +102,11 @@ namespace Library_Managment_Project.Migrations
 
             modelBuilder.Entity("Library_Managment_Project.Entities.Librarian", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("CreateAt")
                         .HasColumnType("datetime2");
@@ -131,11 +140,11 @@ namespace Library_Managment_Project.Migrations
 
             modelBuilder.Entity("Library_Managment_Project.Entities.LoansBook", b =>
                 {
-                    b.Property<string>("MemberId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("MemberId")
+                        .HasColumnType("int");
 
-                    b.Property<string>("BookId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("DateOfLoan")
                         .HasColumnType("datetime2");
@@ -143,8 +152,8 @@ namespace Library_Managment_Project.Migrations
                     b.Property<DateTime>("DateOfReturn")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
 
                     b.Property<int>("LoanStatus")
                         .HasColumnType("int");
@@ -158,8 +167,11 @@ namespace Library_Managment_Project.Migrations
 
             modelBuilder.Entity("Library_Managment_Project.Entities.Member", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("CreateAt")
                         .HasColumnType("datetime2");
@@ -175,6 +187,9 @@ namespace Library_Managment_Project.Migrations
                     b.Property<string>("LastName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("MemberCode")
+                        .HasColumnType("bigint");
 
                     b.Property<int>("MemberShipType")
                         .HasColumnType("int");

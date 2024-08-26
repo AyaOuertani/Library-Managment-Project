@@ -41,7 +41,7 @@ namespace Library_Managment_Project.Controllers
         #endregion
 
         #region ByAvailability
-        [HttpGet("Availability/{Book}")]
+        [HttpGet("Availability")]
         public async Task<IActionResult> GetByAvailability(int pageNumber = 1, int pageSize =10) => Ok(await _bookService.GetByAvailabilityAsync(pageNumber, pageSize));
 
         #endregion
@@ -61,7 +61,7 @@ namespace Library_Managment_Project.Controllers
 
         #region Delete
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteAsync (string id)
+        public async Task<IActionResult> DeleteAsync (int id)
         { 
             return (await _bookService.DeleteAsync(id)) ? Ok("Deleted Successfully") : NotFound("Failed To Delete");
         }

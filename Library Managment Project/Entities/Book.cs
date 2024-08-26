@@ -2,7 +2,7 @@
 {
     public class Book
     {
-        public string ID { get; set; }
+        public  int ID { get; set; }
         public string Title { get; set; }
         public int Code {  get; set; }
         public string Auther { get; set; }

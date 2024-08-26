@@ -2,7 +2,7 @@
 
 namespace Library_Managment_Project.DTOs.MemberDTOs
 {
-    public class GetLoanedBooksResponce
+    public class GetCurrentLoansResponse
     {
         public string BookTitle { get; set; }
         public int Code { get; set; }
@@ -10,7 +10,7 @@ namespace Library_Managment_Project.DTOs.MemberDTOs
         public DateTime DateOfLoan { get; set; }
         public DateTime DateOfReturn { get; set; }
         public StatusOfLoans LoanStatus { get; set; }
-        public GetLoanedBooksResponce(string bookTitle, int code, string auther, StatusOfLoans statusOfLoans, DateTime dateOfLoan, DateTime dateOfReturn )
+        public GetCurrentLoansResponse(string bookTitle, int code, string auther, StatusOfLoans statusOfLoans, DateTime dateOfLoan, DateTime dateOfReturn)
         {
             BookTitle = bookTitle;
             Code = code;
@@ -18,8 +18,7 @@ namespace Library_Managment_Project.DTOs.MemberDTOs
             DateOfLoan = dateOfLoan;
             DateOfReturn = dateOfReturn;
             LoanStatus = statusOfLoans;
-             
+
         }
     }
-
 }

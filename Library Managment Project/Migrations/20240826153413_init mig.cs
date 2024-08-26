@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Library_Managment_Project.Migrations
 {
     /// <inheritdoc />
-    public partial class init : Migration
+    public partial class initmig : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,7 +15,8 @@ namespace Library_Managment_Project.Migrations
                 name: "Admin",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -32,7 +33,8 @@ namespace Library_Managment_Project.Migrations
                 name: "Book",
                 columns: table => new
                 {
-                    ID = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    ID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Code = table.Column<int>(type: "int", nullable: false),
                     Auther = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -52,7 +54,8 @@ namespace Library_Managment_Project.Migrations
                 name: "Librarian",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     WorkSchedule = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -70,7 +73,9 @@ namespace Library_Managment_Project.Migrations
                 name: "Member",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    MemberCode = table.Column<long>(type: "bigint", nullable: false),
                     MemberShipType = table.Column<int>(type: "int", nullable: false),
                     FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -88,9 +93,9 @@ namespace Library_Managment_Project.Migrations
                 name: "LoansBooks",
                 columns: table => new
                 {
-                    BookId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    MemberId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    LoanID = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    BookId = table.Column<int>(type: "int", nullable: false),
+                    MemberId = table.Column<int>(type: "int", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false),
                     DateOfLoan = table.Column<DateTime>(type: "datetime2", nullable: false),
                     DateOfReturn = table.Column<DateTime>(type: "datetime2", nullable: false),
                     LoanStatus = table.Column<int>(type: "int", nullable: false)

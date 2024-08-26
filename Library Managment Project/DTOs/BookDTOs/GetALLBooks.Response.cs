@@ -2,7 +2,7 @@
 
 namespace Library_Managment_Project.DTOs.BookDTOs
 {
-    public class GetAllBooksResponce
+    public class GetAllBooksResponse
     {
         public string Title { get; set; }
         public int Code { get; set; }
@@ -11,7 +11,7 @@ namespace Library_Managment_Project.DTOs.BookDTOs
         public string About { get; set; }
         public string Category { get; set; }
         public DateTime PublishDate { get; set; }
-        public GetAllBooksResponce(string title, int code, string auther, int qte, string about, string category, DateTime publishDate)
+        public GetAllBooksResponse(string title, int code, string auther, int qte, string about, string category, DateTime publishDate)
         {
             Title = title;
             Code = code;
