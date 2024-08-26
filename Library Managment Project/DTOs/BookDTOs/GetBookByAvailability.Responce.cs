@@ -2,7 +2,7 @@
 {
     public class GetBookByAvailabilityResponce
     {
-            public string Id { get; set; }
+            public int Id { get; set; }
             public string Title { get; set; }
             public int Code { get; set; }
             public string Auther {  get; set; }
@@ -12,7 +12,7 @@
             public DateTime PublishDate { get; set; }
             public DateTime CreatedDate { get; set; }
             public DateTime UpdatedDate { get; set; }
-            public GetBookByAvailabilityResponce(string id, string title, int code,string auther ,int qte, string about, string category, DateTime publishDate, DateTime createDate, DateTime updateDate)
+            public GetBookByAvailabilityResponce(int id, string title, int code,string auther ,int qte, string about, string category, DateTime publishDate, DateTime createDate, DateTime updateDate)
             {
                 Id = id;
                 Title = title;

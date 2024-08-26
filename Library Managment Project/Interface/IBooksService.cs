@@ -4,12 +4,12 @@ namespace Library_Managment_Project.Interface
 {
     public interface IBooksService
     {
-        public Task<GetBookByCodeResponce> GetByCodeAsync(int Code);
-        public Task<GetBookByTitleResponce> GetByTitleAsync(string Title);
-        public Task<GetBookByAutherResponce> GetByAutherAsync(string Auther);
+        public Task<GetBookByCodeResponse> GetByCodeAsync(int Code);
+        public Task<GetBookByTitleResponse> GetByTitleAsync(string Title);
+        public Task<GetBookByAuthorResponse> GetByAutherAsync(string Auther);
         public Task<IEnumerable<GetBookByAvailabilityResponce>> GetByAvailabilityAsync();
-        public Task<AddBookResponce> AddAsync(AddBookRequest request);
-        public Task<UpdateBookResponce> UpdateAsync(UpdateBookRequest request);
+        public Task<AddBookResponse> AddAsync(AddBookRequest request);
+        public Task<UpdateBookResponse> UpdateAsync(UpdateBookRequest request);
         public Task<bool> DeleteAsync(string id);
     }
 }

@@ -21,12 +21,12 @@ namespace Library_Managment_Project.Service
         #region Get
 
         #region ByCode
-        public async Task<GetBookByCodeResponce> GetByCodeAsync(int code)
+        public async Task<GetBookByCodeResponse> GetByCodeAsync(int code)
         {
             Book? searchedBook = await _dbcontext.Book.FirstOrDefaultAsync(bookSelected => bookSelected.Code == code );
             if (searchedBook == null) 
                throw new KeyNotFoundException("Book NoT Found !");
-            return new GetBookByCodeResponce(searchedBook.ID,
+            return new GetBookByCodeResponse(searchedBook.Id,
                                            searchedBook.Title,
                                            searchedBook.Auther,
                                            searchedBook.Qte,
@@ -39,12 +39,12 @@ namespace Library_Managment_Project.Service
         #endregion
 
         #region ByTitle
-        public async Task<GetBookByTitleResponce> GetByTitleAsync(string title)
+        public async Task<GetBookByTitleResponse> GetByTitleAsync(string title)
         {
             Book? searchedBook = await _dbcontext.Book.FirstOrDefaultAsync(bookSelected => bookSelected.Title.ToUpper() == title.ToUpper());
             if (searchedBook == null) 
                 throw new KeyNotFoundException("Book Not Found");
-            return new GetBookByTitleResponce(searchedBook.ID, 
+            return new GetBookByTitleResponse(searchedBook.Id, 
                                               searchedBook.Code, 
                                               searchedBook.Auther, 
                                               searchedBook.Qte, 
@@ -57,12 +57,12 @@ namespace Library_Managment_Project.Service
         #endregion
 
         #region ByAuther
-        public async Task<GetBookByAutherResponce> GetByAutherAsync(string auther)
+        public async Task<GetBookByAuthorResponse> GetByAutherAsync(string auther)
         {
             Book? searchedBoook = await _dbcontext.Book.FirstOrDefaultAsync(bookSelected => bookSelected.Auther.ToUpper() == auther.ToUpper());
             if (searchedBoook == null)
                 throw new KeyNotFoundException("Auther Not Found!");
-            return new GetBookByAutherResponce(searchedBoook.ID, 
+            return new GetBookByAuthorResponse(searchedBoook.Id, 
                                                searchedBoook.Title, 
                                                searchedBoook.Code, 
                                                searchedBoook.Qte, 
@@ -80,7 +80,7 @@ namespace Library_Managment_Project.Service
             List<Book> availableBooks = await _dbcontext.Book.Where(b => b.Qte > 0).ToListAsync();
             return availableBooks.Count == 0
                 ? throw new KeyNotFoundException("Not Found")
-                : (IEnumerable<GetBookByAvailabilityResponce>) availableBooks.Select(b => new GetBookByAvailabilityResponce(b.ID, b.Title, b.Code, b.Auther, b.Qte, b.About, b.Category, b.PublishDate, b.CreatedDate, b.UpdatedDate));
+                : (IEnumerable<GetBookByAvailabilityResponce>) availableBooks.Select(b => new GetBookByAvailabilityResponce(b.Id, b.Title, b.Code, b.Auther, b.Qte, b.About, b.Category, b.PublishDate, b.CreatedDate, b.UpdatedDate));
 
         }
         #endregion
@@ -88,11 +88,11 @@ namespace Library_Managment_Project.Service
         #endregion
 
         #region Add
-        public async Task<AddBookResponce> AddAsync(AddBookRequest book)
+        public async Task<AddBookResponse> AddAsync(AddBookRequest book)
         {
             Book newBook = new Book
             {
-                ID = book.ID,
+                Id = book.Id,
                 Title = book.Title,
                 Code = book.Code,
                 Auther = book.Auther,
@@ -105,7 +105,7 @@ namespace Library_Managment_Project.Service
             };
             _dbcontext.Add(newBook);
             await _dbcontext.SaveChangesAsync();
-            return new AddBookResponce(newBook.ID,
+            return new AddBookResponse(newBook.Id,
                                        newBook.Title,
                                        newBook.Code,
                                        newBook.Auther,
@@ -119,7 +119,7 @@ namespace Library_Managment_Project.Service
         #endregion
 
         #region Update
-        public async Task<UpdateBookResponce> UpdateAsync(UpdateBookRequest book)
+        public async Task<UpdateBookResponse> UpdateAsync(UpdateBookRequest book)
         {
 
             Book? bookInDb = await _dbcontext.Book.FindAsync(book.Id);
@@ -130,7 +130,7 @@ namespace Library_Managment_Project.Service
             bookInDb.About = book.About;
             bookInDb.UpdatedDate = DateTime.Now;
             await _dbcontext.SaveChangesAsync();
-            return new UpdateBookResponce(bookInDb.ID, 
+            return new UpdateBookResponse(bookInDb.Id, 
                                           bookInDb.Title, 
                                           bookInDb.Code, 
                                           bookInDb.Auther, 
