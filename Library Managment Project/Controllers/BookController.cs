@@ -20,6 +20,11 @@ namespace Library_Managment_Project.Controllers
 
         #region Get
 
+        #region All
+        [HttpGet]
+        public async Task<IActionResult> GetAllAsync(int pageNumber =1 , int pageSize = 10) => Ok(await _bookService.GetAllAsync(pageNumber, pageSize));
+        #endregion
+
         #region ByCode
         [HttpGet("SearchByCode/{code}")]
         public async Task<IActionResult> GetByCodeAsync(int code) => Ok(await _bookService.GetByCodeAsync(code));
@@ -32,12 +37,12 @@ namespace Library_Managment_Project.Controllers
 
         #region ByAuther
         [HttpGet("SearchByAuther/{auther}")]
-        public async Task<IActionResult> GetByAuther(string auther) => Ok(await _bookService.GetByAutherAsync(auther));
+        public async Task<IActionResult> GetByAuther(string auther,int pageNumber = 1, int pageSize = 10) => Ok(await _bookService.GetByAutherAsync(auther, pageNumber,pageSize));
         #endregion
 
         #region ByAvailability
-        [HttpGet]
-        public async Task<IActionResult> GetByAvailability() => Ok(await _bookService.GetByAvailabilityAsync());
+        [HttpGet("Availability/{Book}")]
+        public async Task<IActionResult> GetByAvailability(int pageNumber = 1, int pageSize =10) => Ok(await _bookService.GetByAvailabilityAsync(pageNumber, pageSize));
 
         #endregion
 
