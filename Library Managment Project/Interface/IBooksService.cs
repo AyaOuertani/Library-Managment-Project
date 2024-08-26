@@ -1,4 +1,5 @@
 ﻿using Library_Managment_Project.DTOs.BookDTOs;
+using Library_Managment_Project.Models;
 
 namespace Library_Managment_Project.Interface
 {
