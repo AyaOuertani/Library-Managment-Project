@@ -1,9 +1,11 @@
 ﻿using Library_Managment_Project.Enum;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Library_Managment_Project.Entities
 {
     public class LoansBook
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public DateTime  DateOfLoan { get; set; }
         public DateTime DateOfReturn { get; set; }
@@ -12,5 +14,6 @@ namespace Library_Managment_Project.Entities
         public Book? Book { get; set; }
         public int MemberId { get; set; }
         public Member? Member { get; set; }
+     
     }
 }

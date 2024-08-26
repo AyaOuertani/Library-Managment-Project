@@ -135,7 +135,7 @@ namespace Library_Managment_Project.Service
         {
             Book newBook = new Book
             {
-                ID = book.ID,
+                Id = book.Id,
                 Title = book.Title,
                 Code = book.Code,
                 Auther = book.Auther,

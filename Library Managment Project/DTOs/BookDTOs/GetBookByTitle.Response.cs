@@ -11,11 +11,15 @@
         public DateTime PublishDate { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set; }
+<<<<<<< HEAD:Library Managment Project/DTOs/BookDTOs/GetBookByTitle.Response.cs
         public GetBookByTitleResponse(int id, int code, string auther, int qte, string about, string category, DateTime publishDate, DateTime createDate, DateTime updateDate)
+=======
+        public GetBookByTitleResponse(int id, int code, string author, int qte, string about, string category, DateTime publishDate, DateTime createDate, DateTime updateDate)
+>>>>>>> 69c394ecc8895d4c71bd0b276f4145fc36110090:Library Managment Project/DTOs/BookDTOs/GetBookByTitle.Responce.cs
         {
             Id = id;
             Code = code;
-            Auther = auther;
+            Auther = author;
             Qte = qte;
             About = about;
             Category = category;
