@@ -37,7 +37,7 @@ namespace Library_Managment_Project.Controllers
 
         #region ByAuther
         [HttpGet("SearchByAuther/{auther}")]
-        public async Task<IActionResult> GetByAuther(string auther,int pageNumber = 1, int pageSize = 10) => Ok(await _bookService.GetByAutherAsync(auther, pageNumber,pageSize));
+        public async Task<IActionResult> GetByAuthor(string auther,int pageNumber = 1, int pageSize = 10) => Ok(await _bookService.GetByAuthorAsync(auther, pageNumber,pageSize));
         #endregion
 
         #region ByAvailability

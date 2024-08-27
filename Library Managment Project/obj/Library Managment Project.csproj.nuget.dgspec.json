@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Library Managment Project.csproj": {}
+    "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Library Managment Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Library Managment Project.csproj": {
+    "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Library Managment Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Library Managment Project.csproj",
+        "projectUniqueName": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Library Managment Project.csproj",
         "projectName": "Library Managment Project",
-        "projectPath": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Library Managment Project.csproj",
-        "packagesPath": "C:\\Users\\alaam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alaam\\Source\\Repos\\Library-Managment-Project\\Library Managment Project\\obj\\",
+        "projectPath": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\Library Managment Project.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\Intrenship\\Project\\Library Managment\\Library Managment Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alaam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

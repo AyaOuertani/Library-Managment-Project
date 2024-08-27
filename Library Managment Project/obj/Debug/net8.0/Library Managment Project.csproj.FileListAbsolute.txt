@@ -288,3 +288,5 @@ C:\Users\alaam\Source\Repos\Library-Managment-Project\Library Managment Project\
 C:\Users\alaam\Source\Repos\Library-Managment-Project\Library Managment Project\obj\Debug\net8.0\ref\Library Managment Project.dll
 C:\Users\alaam\Source\Repos\Library-Managment-Project\Library Managment Project\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\alaam\Source\Repos\Library-Managment-Project\Library Managment Project\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\AutoMapper.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
