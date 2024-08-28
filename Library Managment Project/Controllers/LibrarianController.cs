@@ -6,24 +6,24 @@ namespace Library_Managment_Project.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    #region Libarian
+    #region Librarian
     public class LibrarianController : ControllerBase
     {
         #region Variables+Constractor
-        private readonly ILibarianService _libarianService;
-        public LibrarianController(ILibarianService libarianService) => _libarianService = libarianService;
+        private readonly ILibrarianService _librarianService;
+        public LibrarianController(ILibrarianService libarianService) => _librarianService = libarianService;
         #endregion
 
         #region Get
 
         #region All
         [HttpGet]
-        public async Task<IActionResult> GetAllAsync(int pageNumber = 1, int pageSize = 10) => Ok(await _libarianService.GetAllAsync(pageNumber, pageSize));
+        public async Task<IActionResult> GetAllAsync(int pageNumber = 1, int pageSize = 10) => Ok(await _librarianService.GetAllAsync(pageNumber, pageSize));
         #endregion
 
         #region ById
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetByNumberAsync(int id) => Ok(await _libarianService.GetByNumberAsync(id));
+        public async Task<IActionResult> GetByNumberAsync(int id) => Ok(await _librarianService.GetByNumberAsync(id));
 
         #endregion
 
@@ -31,19 +31,19 @@ namespace Library_Managment_Project.Controllers
 
         #region Add
         [HttpPost]
-        public async Task<IActionResult> AddAsync(AddLibarianRequest libarianRequest) => Ok(await _libarianService.AddAsync(libarianRequest));
+        public async Task<IActionResult> AddAsync(AddLibrarianRequest librarianRequest) => Ok(await _librarianService.AddAsync(librarianRequest));
         #endregion
 
         #region Update
         [HttpPut]
-        public async Task<IActionResult> UpdateAsync(UpdateLibarianRequest libarianRequest) => Ok(await _libarianService.UpdateAsync(libarianRequest));
+        public async Task<IActionResult> UpdateAsync(UpdateLibrarianRequest librarianRequest) => Ok(await _librarianService.UpdateAsync(librarianRequest));
         #endregion
 
         #region Delete
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAsync(int id)
         {
-            return (await _libarianService.DeleteAsync(id)) ? Ok("Deleted Successfully") : NotFound("Failed To Delete");
+            return (await _librarianService.DeleteAsync(id)) ? Ok("Deleted Successfully") : NotFound("Failed To Delete");
         }
         #endregion
     }

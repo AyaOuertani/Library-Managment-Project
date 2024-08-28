@@ -74,24 +74,24 @@ namespace Library_Managment_Project.Service
         #region ByAuthor
         public async Task<PaginatedList<GetBookByAuthorResponse>> GetByAuthorAsync(string author, int pageNumber, int pageSize)
         {
-            var searchedBooks = await _dbcontext.Book.Where(bookSelected => bookSelected.Auther.ToUpper() == author.ToUpper())
-                                                     .Skip((pageNumber - 1) * pageSize)
-                                                     .Take(pageSize)
-                                                     .ToListAsync();
+            List<Book> searchedBooks = await _dbcontext.Book.Where(bookSelected => bookSelected.Auther.ToUpper() == author.ToUpper())
+                                                            .Skip((pageNumber - 1) * pageSize)
+                                                            .Take(pageSize)
+                                                            .ToListAsync();
 
             if (!searchedBooks.Any())
                 throw new KeyNotFoundException("Author Not Found!");
 
-            var responseList = searchedBooks.Select(book => new GetBookByAuthorResponse(book.Id,
-                                                                                        book.Title,
-                                                                                        book.Code,
-                                                                                        book.Qte,
-                                                                                        book.About,
-                                                                                        book.Category,
-                                                                                        book.PublishDate,
-                                                                                        book.CreatedDate,
-                                                                                        book.UpdatedDate
-                                                                                        )).ToList();
+            List<GetBookByAuthorResponse> responseList = searchedBooks.Select(book => new GetBookByAuthorResponse(book.Id,
+                                                                                                                  book.Title,
+                                                                                                                  book.Code,
+                                                                                                                  book.Qte,
+                                                                                                                  book.About,
+                                                                                                                  book.Category,
+                                                                                                                  book.PublishDate,
+                                                                                                                  book.CreatedDate,
+                                                                                                                  book.UpdatedDate
+                                                                                                                  )).ToList();
             int count = searchedBooks.Count();
             int totalPages = (int)Math.Ceiling(count / (double)pageSize);
             return new PaginatedList<GetBookByAuthorResponse>(responseList, pageNumber, pageSize);
@@ -134,7 +134,6 @@ namespace Library_Managment_Project.Service
         {
             Book newBook = new Book
             {
-                Id = book.Id,
                 Title = book.Title,
                 Code = book.Code,
                 Auther = book.Auther,

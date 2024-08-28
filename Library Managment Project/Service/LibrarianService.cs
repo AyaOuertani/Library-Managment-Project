@@ -1,7 +1,5 @@
 ﻿using Library_Managment_Project.DTOs.LibarianDTOs;
-using Library_Managment_Project.DTOs.MemberDTOs;
 using Library_Managment_Project.Entities;
-using Library_Managment_Project.Enum;
 using Library_Managment_Project.Interface;
 using Library_Managment_Project.Models;
 using LibraryManagment.Data;
@@ -10,41 +8,38 @@ using Microsoft.EntityFrameworkCore;
 namespace Library_Managment_Project.Service
 {
     #region Libarian
-    public class LibarianService : ILibarianService
+    public class LibrarianService : ILibrarianService
     {
 
         #region Variables+Constracor
         private readonly ApplicationDBcontext _dbcontext;
-        public LibarianService(ApplicationDBcontext dbcontext) => _dbcontext = dbcontext;
+        public LibrarianService(ApplicationDBcontext dbcontext) => _dbcontext = dbcontext;
         #endregion
 
         #region Get
 
         #region All
-        public async Task<PaginatedList<GetAllLibarianResponse>> GetAllAsync(int pageNumber, int pageSize)
+        public async Task<PaginatedList<GetAllLibrarianResponse>> GetAllAsync(int pageNumber, int pageSize)
         {
-            List<GetAllLibarianResponse> librarians = await _dbcontext.Librarian
-                .Skip((pageNumber - 1) * pageSize)
-                .Take(pageSize)
-                .Select(librarianSelected => new GetAllLibarianResponse(
-                    librarianSelected.Id,
-                    librarianSelected.FirstName,
-                    librarianSelected.LastName,
-                    librarianSelected.Email,
-                    librarianSelected.PhoneNumber,
-                    librarianSelected.WorkSchedule
-                ))
-                .ToListAsync();
+            List<GetAllLibrarianResponse> librarians = await _dbcontext.Librarian.Skip((pageNumber - 1) * pageSize)
+                                                                                .Take(pageSize)
+                                                                                .Select(librarianSelected => new GetAllLibrarianResponse(librarianSelected.Id,
+                                                                                                                                        librarianSelected.FirstName,
+                                                                                                                                        librarianSelected.LastName,
+                                                                                                                                        librarianSelected.Email,
+                                                                                                                                        librarianSelected.PhoneNumber,
+                                                                                                                                        librarianSelected.WorkSchedule))
+                                                                                                                                        .ToListAsync();
 
             int totalCount = await _dbcontext.Librarian.CountAsync();
             int totalPages = (int)Math.Ceiling(totalCount / (double)pageSize);
 
-            return new PaginatedList<GetAllLibarianResponse>(librarians, pageNumber, pageSize);
+            return new PaginatedList<GetAllLibrarianResponse>(librarians, pageNumber, pageSize);
         }
-    #endregion
+        #endregion
 
         #region ById
-    public async Task<GetLibarianByIdResponse> GetByNumberAsync(int id)
+        public async Task<GetLibarianByIdResponse> GetByNumberAsync(int id)
         {
             Librarian? libarianSelected = await _dbcontext.Librarian.FindAsync(id);
             if (libarianSelected == null)
@@ -61,7 +56,7 @@ namespace Library_Managment_Project.Service
         #endregion
 
         #region Add
-        public async Task<AddLibarianResponse> AddAsync(AddLibarianRequest request)
+        public async Task<AddLibrarianResponse> AddAsync(AddLibrarianRequest request)
         {
             Librarian newLibarian = new Librarian
             {
@@ -73,7 +68,7 @@ namespace Library_Managment_Project.Service
             };
             _dbcontext.Librarian.Add(newLibarian);
             await _dbcontext.SaveChangesAsync();
-            return new AddLibarianResponse(newLibarian.Id,
+            return new AddLibrarianResponse(newLibarian.Id,
                                            newLibarian.FirstName,
                                            newLibarian.LastName,
                                            newLibarian.Email,
@@ -85,7 +80,7 @@ namespace Library_Managment_Project.Service
         #endregion
 
         #region Update
-        public async Task<UpdateLibarianResponse> UpdateAsync(UpdateLibarianRequest request)
+        public async Task<UpdateLibrarianResponse> UpdateAsync(UpdateLibrarianRequest request)
         {
             Librarian libarian = _dbcontext.Librarian.Find(request.Id)
                                               ?? throw new KeyNotFoundException("Libarian Not Found");
@@ -96,7 +91,7 @@ namespace Library_Managment_Project.Service
             libarian.WorkSchedule = request.WorkSchedule;
             libarian.UpdateAt = DateTime.Now;
             await _dbcontext.SaveChangesAsync();
-            return new UpdateLibarianResponse(libarian.Id,
+            return new UpdateLibrarianResponse(libarian.Id,
                                               libarian.FirstName,
                                               libarian.LastName,
                                               libarian.Email,

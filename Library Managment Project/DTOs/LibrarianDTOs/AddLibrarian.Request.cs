@@ -2,7 +2,7 @@
 
 namespace Library_Managment_Project.DTOs.LibarianDTOs
 {
-    public class AddLibarianRequest
+    public class AddLibrarianRequest
     {
         public int LibarianId { get; set; }
         public string FirstName { get; set; }
@@ -10,7 +10,7 @@ namespace Library_Managment_Project.DTOs.LibarianDTOs
         public string Email { get; set; }
         public int PhoneNumber { get; set; }
         public string WorkSchedule { get; set; }
-        public AddLibarianRequest(int libarianId,  string firstName, string lastName, string email, int phoneNumber, string workSchedule)
+        public AddLibrarianRequest(int libarianId,  string firstName, string lastName, string email, int phoneNumber, string workSchedule)
         {
             LibarianId = libarianId;
             FirstName = firstName;

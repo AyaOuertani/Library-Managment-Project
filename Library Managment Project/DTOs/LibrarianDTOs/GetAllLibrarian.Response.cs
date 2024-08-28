@@ -1,6 +1,6 @@
 ﻿namespace Library_Managment_Project.DTOs.LibarianDTOs
 {
-    public class GetAllLibarianResponse
+    public class GetAllLibrarianResponse
     {
         public int LibarianId { get; set; }
         public string FirstName { get; set; }
@@ -8,7 +8,7 @@
         public string Email { get; set; }
         public int PhoneNumber { get; set; }
         public string WorkSchedule { get; set; }
-        public GetAllLibarianResponse(int libarianId, string firstName, string lastName, string email, int phoneNumber, string workSchedule)
+        public GetAllLibrarianResponse(int libarianId, string firstName, string lastName, string email, int phoneNumber, string workSchedule)
         {
             LibarianId = libarianId;
             FirstName = firstName;
