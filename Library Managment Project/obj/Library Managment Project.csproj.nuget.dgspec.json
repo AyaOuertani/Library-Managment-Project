@@ -11,7 +11,7 @@
         "projectName": "Library Managment Project",
         "projectPath": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Library Managment Project.csproj",
         "packagesPath": "C:\\Users\\alaam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alaam\\Source\\Repos\\Library-Managment-Project\\Library Managment Project\\obj\\",
+        "outputPath": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

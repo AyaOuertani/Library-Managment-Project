@@ -3,108 +3,124 @@
   "WorkspaceRootPath": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826154430_third migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library Managment Project\\Migrations\\20240826154430_third migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826154327_second migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library Managment Project\\Migrations\\20240826154327_second migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\entities\\loansbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\entities\\loansbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\controllers\\loanbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\controllers\\loanbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\loanbookdtos\\loanbookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\loanbookdtos\\loanbookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\service\\loanbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\service\\loanbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\service\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\service\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\entities\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\entities\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\interface\\iloanbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\interface\\iloanbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\loanbookdtos\\loanbookresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\loanbookdtos\\loanbookresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\loanbookdtos\\returnloanedbook.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\loanbookdtos\\returnloanedbook.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152835_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library Managment Project\\Migrations\\20240826152835_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\loanbookdtos\\loanbookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\loanbookdtos\\loanbookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\loanbookdtos\\returnloanedbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\loanbookdtos\\returnloanedbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\loanbookdtos\\loanbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\loanbookdtos\\loanbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\mapper\\automapperprofilemember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\mapper\\automapperprofilemember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\library managment project.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\library managment project.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\memberdtos\\addmember.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\memberdtos\\addmember.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\entities\\loansbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\entities\\loansbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\models\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\models\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\migrations\\20240826154520_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\migrations\\20240826154520_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\mapper\\automapperprofilebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\mapper\\automapperprofilebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152737_4th migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library Managment Project\\Migrations\\20240826152737_4th migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\mapper\\automapperprofileloanbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\mapper\\automapperprofileloanbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152549_Third migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library Managment Project\\Migrations\\20240826152549_Third migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\interface\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\interface\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\updatebook.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\updatebook.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\enum\\statusofloans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\enum\\statusofloans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\getbookbyavailability.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\getbookbyavailability.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\enum\\memebershiptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\enum\\memebershiptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\interface\\ibooksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\interface\\ibooksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\entities\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\entities\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\memberdtos\\getmemberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\memberdtos\\getmemberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\loanbookdtos\\loanbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\loanbookdtos\\loanbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\updatebook.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\updatebook.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\updatebook.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -119,64 +135,92 @@
       "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\getbookbycode.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\getbookbycode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\getbookbycode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\getbookbyavailability.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\getbookbyavailability.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\getbookbytitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\getbookbytitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\getbookbycode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\getbookbycode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\getbookbyavailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\getbookbyavailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\addbook.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\addbook.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\getbookbyauther.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\getbookbyauther.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\getbookbyauther.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\getbookbyauther.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\getbookbyauther.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\getbookbyauther.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\getallbooks.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\getallbooks.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\getallbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\getallbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\addbook.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\addbook.responce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\addbook.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\addbook.request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\interface\\iloanbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\interface\\iloanbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\mapper\\automapperprofilemember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\mapper\\automapperprofilemember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826154430_third migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library Managment Project\\Migrations\\20240826154430_third migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\mapper\\automapperprofileloanbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\mapper\\automapperprofileloanbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826154327_second migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library Managment Project\\Migrations\\20240826154327_second migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152835_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library Managment Project\\Migrations\\20240826152835_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152737_4th migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library Managment Project\\Migrations\\20240826152737_4th migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152549_Third migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library Managment Project\\Migrations\\20240826152549_Third migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\memberdtos\\getmemberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\memberdtos\\getmemberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\dtos\\bookdtos\\getbookbytitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\dtos\\bookdtos\\getbookbytitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826141303_second migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library Managment Project\\Migrations\\20240826141303_second migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826135623_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library Managment Project\\Migrations\\20240826135623_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|c:\\users\\alaam\\source\\repos\\library-managment-project\\library managment project\\migrations\\20240826154520_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11BD3D3-7332-472B-A1FE-9E1B5F68E1FD}|Library Managment Project\\Library Managment Project.csproj|solutionrelative:library managment project\\migrations\\20240826154520_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -186,7 +230,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 267,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -206,141 +250,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Librarian.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\Librarian.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Entities\\Librarian.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\Librarian.cs",
-              "RelativeToolTip": "Library Managment Project\\Entities\\Librarian.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:59:30.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\Book.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Entities\\Book.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\Book.cs",
-              "RelativeToolTip": "Library Managment Project\\Entities\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:11:48.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationDBcontext.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Data\\ApplicationDBcontext.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Data\\ApplicationDBcontext.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Data\\ApplicationDBcontext.cs",
-              "RelativeToolTip": "Library Managment Project\\Data\\ApplicationDBcontext.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAzwCUAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:00:03.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoanBookRequest.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBookRequest.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBookRequest.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBookRequest.cs",
-              "RelativeToolTip": "Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBookRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:09:34.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Controllers\\BookController.cs",
-              "RelativeToolTip": "Library Managment Project\\Controllers\\BookController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:59:23.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Member.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\Member.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Entities\\Member.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\Member.cs",
-              "RelativeToolTip": "Library Managment Project\\Entities\\Member.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:59:37.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\User.cs",
-              "RelativeToolTip": "Library Managment Project\\Entities\\User.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAA3wAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:59:59.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "20240826154327_second migration.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826154327_second migration.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Migrations\\20240826154327_second migration.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826154327_second migration.cs",
-              "RelativeToolTip": "Library Managment Project\\Migrations\\20240826154327_second migration.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Title": "MemberService.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Service\\MemberService.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Service\\MemberService.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Service\\MemberService.cs",
+              "RelativeToolTip": "Library Managment Project\\Service\\MemberService.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAQwB8AAACbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:43:27.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "20240826154520_initial migration.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826154520_initial migration.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Migrations\\20240826154520_initial migration.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826154520_initial migration.cs",
-              "RelativeToolTip": "Library Managment Project\\Migrations\\20240826154520_initial migration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:45:20.748Z",
+              "WhenOpened": "2024-08-26T16:00:37.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "20240826154430_third migration.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826154430_third migration.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Migrations\\20240826154430_third migration.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826154430_third migration.cs",
-              "RelativeToolTip": "Library Managment Project\\Migrations\\20240826154430_third migration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "LoanBookService.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Service\\LoanBookService.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Service\\LoanBookService.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Service\\LoanBookService.cs",
+              "RelativeToolTip": "Library Managment Project\\Service\\LoanBookService.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAmwDYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:44:31.146Z",
+              "WhenOpened": "2024-08-26T13:24:45.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Service\\BookService.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Service\\BookService.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Service\\BookService.cs",
+              "RelativeToolTip": "Library Managment Project\\Service\\BookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAK4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T12:59:21.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LoanBookController.cs",
               "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Controllers\\LoanBookController.cs",
               "RelativeDocumentMoniker": "Library Managment Project\\Controllers\\LoanBookController.cs",
@@ -353,20 +302,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoansBook.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\LoansBook.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Entities\\LoansBook.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\LoansBook.cs",
-              "RelativeToolTip": "Library Managment Project\\Entities\\LoansBook.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAATAAAA",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Library Managment Project\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:59:35.399Z",
+              "WhenOpened": "2024-08-26T12:59:23.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ILoanBookService.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Interface\\ILoanBookService.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Interface\\ILoanBookService.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Interface\\ILoanBookService.cs",
+              "RelativeToolTip": "Library Managment Project\\Interface\\ILoanBookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T13:22:42.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "LoanBookResponse.cs",
               "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBookResponse.cs",
               "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBookResponse.cs",
@@ -379,332 +345,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoanBookService.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Service\\LoanBookService.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Service\\LoanBookService.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Service\\LoanBookService.cs",
-              "RelativeToolTip": "Library Managment Project\\Service\\LoanBookService.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA0wBUAAABEAAAA",
+              "DocumentIndex": 7,
+              "Title": "ReturnLoanedBook.Request.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\LoanBookDTOs\\ReturnLoanedBook.Request.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\LoanBookDTOs\\ReturnLoanedBook.Request.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\LoanBookDTOs\\ReturnLoanedBook.Request.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\LoanBookDTOs\\ReturnLoanedBook.Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:24:45.868Z",
+              "WhenOpened": "2024-08-27T15:37:49.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoanBookRequest.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBookRequest.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBookRequest.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBookRequest.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBookRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T13:09:34.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReturnLoanedBook.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\LoanBookDTOs\\ReturnLoanedBook.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\LoanBookDTOs\\ReturnLoanedBook.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\LoanBookDTOs\\ReturnLoanedBook.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\LoanBookDTOs\\ReturnLoanedBook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T15:37:18.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Service\\BookService.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Service\\BookService.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Service\\BookService.cs",
-              "RelativeToolTip": "Library Managment Project\\Service\\BookService.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAcwIQAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:59:21.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Library Managment Project\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\appsettings.Development.json",
-              "RelativeToolTip": "Library Managment Project\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-26T15:32:06.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20240826152835_initial migration.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152835_initial migration.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Migrations\\20240826152835_initial migration.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152835_initial migration.cs",
-              "RelativeToolTip": "Library Managment Project\\Migrations\\20240826152835_initial migration.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:28:36.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AddBook.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\AddBook.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\AddBook.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\AddBook.cs",
-              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\AddBook.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:18:41.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AutoMapperProfileBook.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Mapper\\AutoMapperProfileBook.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Mapper\\AutoMapperProfileBook.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Mapper\\AutoMapperProfileBook.cs",
-              "RelativeToolTip": "Library Managment Project\\Mapper\\AutoMapperProfileBook.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAA1wAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:24:40.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "GetBookByAvailability.Responce.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByAvailability.Responce.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByAvailability.Responce.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByAvailability.Responce.cs",
-              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByAvailability.Responce.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAWwA4AAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:19:44.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20240826152549_Third migration.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152549_Third migration.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Migrations\\20240826152549_Third migration.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152549_Third migration.cs",
-              "RelativeToolTip": "Library Managment Project\\Migrations\\20240826152549_Third migration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:25:49.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20240826152737_4th migration.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152737_4th migration.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Migrations\\20240826152737_4th migration.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152737_4th migration.cs",
-              "RelativeToolTip": "Library Managment Project\\Migrations\\20240826152737_4th migration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:27:37.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IBooksService.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Interface\\IBooksService.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Interface\\IBooksService.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Interface\\IBooksService.cs",
-              "RelativeToolTip": "Library Managment Project\\Interface\\IBooksService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:22:00.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UpdateBook.Responce.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\UpdateBook.Responce.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\UpdateBook.Responce.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\UpdateBook.Responce.cs",
-              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\UpdateBook.Responce.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAUwBAAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:20:21.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\Admin.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Entities\\Admin.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\Admin.cs",
-              "RelativeToolTip": "Library Managment Project\\Entities\\Admin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:59:29.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "GetMemberResponse.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\MemberDTOs\\GetMemberResponse.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\MemberDTOs\\GetMemberResponse.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\MemberDTOs\\GetMemberResponse.cs",
-              "RelativeToolTip": "Library Managment Project\\DTOs\\MemberDTOs\\GetMemberResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:51:05.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "LoanBook.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBook.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBook.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBook.cs",
-              "RelativeToolTip": "Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBook.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:09:23.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UpdateBook.Request.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\UpdateBook.Request.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\UpdateBook.Request.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\UpdateBook.Request.cs",
-              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\UpdateBook.Request.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:20:12.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "GetBookByCode.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByCode.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByCode.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByCode.cs",
-              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByCode.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:19:46.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "GetBookByTitle.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByTitle.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByTitle.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByTitle.cs",
-              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByTitle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:19:49.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "GetBookByAvailability.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByAvailability.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByAvailability.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByAvailability.cs",
-              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByAvailability.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:19:07.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "GetBookByCode.Responce.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByCode.Responce.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByCode.Responce.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByCode.Responce.cs",
-              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByCode.Responce.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:08:05.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "GetBookByTitle.Responce.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByTitle.Responce.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByTitle.Responce.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByTitle.Responce.cs",
-              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByTitle.Responce.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:18:04.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "GetBookByAuther.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByAuther.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByAuther.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByAuther.cs",
-              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByAuther.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:19:05.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "GetBookByAuther.Responce.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByAuther.Responce.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByAuther.Responce.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByAuther.Responce.cs",
-              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByAuther.Responce.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:19:08.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "AddBook.Responce.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\AddBook.Responce.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\AddBook.Responce.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\AddBook.Responce.cs",
-              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\AddBook.Responce.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:18:50.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "AddBook.Request.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\AddBook.Request.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\AddBook.Request.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\AddBook.Request.cs",
-              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\AddBook.Request.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:10:32.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ILoanBookService.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Interface\\ILoanBookService.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Interface\\ILoanBookService.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Interface\\ILoanBookService.cs",
-              "RelativeToolTip": "Library Managment Project\\Interface\\ILoanBookService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:22:42.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
               "Title": "AutoMapperProfileMember.cs",
               "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Mapper\\AutoMapperProfileMember.cs",
               "RelativeDocumentMoniker": "Library Managment Project\\Mapper\\AutoMapperProfileMember.cs",
@@ -717,33 +397,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 10,
+              "Title": "LoanBook.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBook.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBook.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBook.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\LoanBookDTOs\\LoanBook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T13:09:23.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddMember.Request.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\MemberDTOs\\AddMember.Request.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\MemberDTOs\\AddMember.Request.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\MemberDTOs\\AddMember.Request.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\MemberDTOs\\AddMember.Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T16:01:03.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoansBook.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\LoansBook.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Entities\\LoansBook.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\LoansBook.cs",
+              "RelativeToolTip": "Library Managment Project\\Entities\\LoansBook.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T12:59:35.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Models\\Pagination.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Models\\Pagination.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Models\\Pagination.cs",
+              "RelativeToolTip": "Library Managment Project\\Models\\Pagination.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:57:26.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Library Managment Project.http",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Library Managment Project.http",
+              "RelativeDocumentMoniker": "Library Managment Project\\Library Managment Project.http",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Library Managment Project.http",
+              "RelativeToolTip": "Library Managment Project\\Library Managment Project.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-08-26T16:01:58.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\appsettings.json",
               "RelativeDocumentMoniker": "Library Managment Project\\appsettings.json",
               "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\appsettings.json",
               "RelativeToolTip": "Library Managment Project\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-26T13:05:07.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T13:05:07.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "20240826141303_second migration.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826141303_second migration.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Migrations\\20240826141303_second migration.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826141303_second migration.cs",
-              "RelativeToolTip": "Library Managment Project\\Migrations\\20240826141303_second migration.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "DocumentIndex": 19,
+              "Title": "AutoMapperProfileBook.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Mapper\\AutoMapperProfileBook.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Mapper\\AutoMapperProfileBook.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Mapper\\AutoMapperProfileBook.cs",
+              "RelativeToolTip": "Library Managment Project\\Mapper\\AutoMapperProfileBook.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:13:03.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T14:24:40.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Program.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Program.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Program.cs",
+              "RelativeToolTip": "Library Managment Project\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T12:59:14.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "AutoMapperProfileLoanBook.cs",
               "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Mapper\\AutoMapperProfileLoanBook.cs",
               "RelativeDocumentMoniker": "Library Managment Project\\Mapper\\AutoMapperProfileLoanBook.cs",
@@ -751,25 +504,419 @@
               "RelativeToolTip": "Library Managment Project\\Mapper\\AutoMapperProfileLoanBook.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:24:08.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T13:24:08.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IMemberService.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Interface\\IMemberService.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Interface\\IMemberService.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Interface\\IMemberService.cs",
+              "RelativeToolTip": "Library Managment Project\\Interface\\IMemberService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:57:17.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240826154520_initial migration.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826154520_initial migration.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Migrations\\20240826154520_initial migration.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826154520_initial migration.cs",
+              "RelativeToolTip": "Library Managment Project\\Migrations\\20240826154520_initial migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:45:20.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StatusOfLoans.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Enum\\StatusOfLoans.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Enum\\StatusOfLoans.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Enum\\StatusOfLoans.cs",
+              "RelativeToolTip": "Library Managment Project\\Enum\\StatusOfLoans.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:55:44.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MemeberShipType.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Enum\\MemeberShipType.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Enum\\MemeberShipType.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Enum\\MemeberShipType.cs",
+              "RelativeToolTip": "Library Managment Project\\Enum\\MemeberShipType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:55:43.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Librarian.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\Librarian.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Entities\\Librarian.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\Librarian.cs",
+              "RelativeToolTip": "Library Managment Project\\Entities\\Librarian.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T12:59:30.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\User.cs",
+              "RelativeToolTip": "Library Managment Project\\Entities\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA1wAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T12:59:59.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\Admin.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Entities\\Admin.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\Admin.cs",
+              "RelativeToolTip": "Library Managment Project\\Entities\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T12:59:29.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateBook.Responce.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\UpdateBook.Responce.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\UpdateBook.Responce.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\UpdateBook.Responce.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\UpdateBook.Responce.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA0wBAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:20:21.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UpdateBook.Request.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\UpdateBook.Request.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\UpdateBook.Request.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\UpdateBook.Request.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\UpdateBook.Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:20:12.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GetBookByTitle.Responce.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByTitle.Responce.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByTitle.Responce.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByTitle.Responce.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByTitle.Responce.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:18:04.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\Member.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Entities\\Member.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\Member.cs",
+              "RelativeToolTip": "Library Managment Project\\Entities\\Member.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwAgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T12:59:37.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Entities\\Book.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Entities\\Book.cs",
+              "RelativeToolTip": "Library Managment Project\\Entities\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T13:11:48.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GetBookByCode.Responce.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByCode.Responce.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByCode.Responce.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByCode.Responce.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByCode.Responce.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T14:08:05.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GetBookByAvailability.Responce.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByAvailability.Responce.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByAvailability.Responce.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByAvailability.Responce.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByAvailability.Responce.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAIA0wA4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:19:44.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GetBookByCode.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByCode.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByCode.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByCode.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByCode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:19:46.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GetBookByAvailability.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByAvailability.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByAvailability.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByAvailability.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByAvailability.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:19:07.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GetBookByAuther.Responce.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByAuther.Responce.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByAuther.Responce.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByAuther.Responce.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByAuther.Responce.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:19:08.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "GetBookByAuther.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByAuther.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByAuther.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByAuther.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByAuther.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:19:05.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GetALLBooks.Responce.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetALLBooks.Responce.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetALLBooks.Responce.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetALLBooks.Responce.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetALLBooks.Responce.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:55:03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GetALLBooks.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetALLBooks.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetALLBooks.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetALLBooks.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetALLBooks.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:55:01.817Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 41,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Program.cs",
-              "RelativeDocumentMoniker": "Library Managment Project\\Program.cs",
-              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Program.cs",
-              "RelativeToolTip": "Library Managment Project\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA5AAAA",
+              "Title": "AddBook.Request.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\AddBook.Request.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\AddBook.Request.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\AddBook.Request.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\AddBook.Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:59:14.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T13:10:32.834Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 42,
+              "Title": "AddBook.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\AddBook.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\AddBook.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\AddBook.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\AddBook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:18:41.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "Library Managment Project\\Controllers\\MemberController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:54:13.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AddBook.Responce.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\AddBook.Responce.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\AddBook.Responce.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\AddBook.Responce.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\AddBook.Responce.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:18:50.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20240826154327_second migration.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826154327_second migration.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Migrations\\20240826154327_second migration.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826154327_second migration.cs",
+              "RelativeToolTip": "Library Managment Project\\Migrations\\20240826154327_second migration.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:43:27.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ApplicationDBcontext.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Data\\ApplicationDBcontext.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Data\\ApplicationDBcontext.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Data\\ApplicationDBcontext.cs",
+              "RelativeToolTip": "Library Managment Project\\Data\\ApplicationDBcontext.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAzwCUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T13:00:03.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20240826154430_third migration.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826154430_third migration.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Migrations\\20240826154430_third migration.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826154430_third migration.cs",
+              "RelativeToolTip": "Library Managment Project\\Migrations\\20240826154430_third migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:44:31.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Library Managment Project\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\appsettings.Development.json",
+              "RelativeToolTip": "Library Managment Project\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-26T15:32:06.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20240826152835_initial migration.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152835_initial migration.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Migrations\\20240826152835_initial migration.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152835_initial migration.cs",
+              "RelativeToolTip": "Library Managment Project\\Migrations\\20240826152835_initial migration.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:28:36.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20240826152549_Third migration.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152549_Third migration.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Migrations\\20240826152549_Third migration.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152549_Third migration.cs",
+              "RelativeToolTip": "Library Managment Project\\Migrations\\20240826152549_Third migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:25:49.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20240826152737_4th migration.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152737_4th migration.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Migrations\\20240826152737_4th migration.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826152737_4th migration.cs",
+              "RelativeToolTip": "Library Managment Project\\Migrations\\20240826152737_4th migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:27:37.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "GetMemberResponse.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\MemberDTOs\\GetMemberResponse.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\MemberDTOs\\GetMemberResponse.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\MemberDTOs\\GetMemberResponse.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\MemberDTOs\\GetMemberResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T14:51:05.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GetBookByTitle.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByTitle.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByTitle.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\DTOs\\BookDTOs\\GetBookByTitle.cs",
+              "RelativeToolTip": "Library Managment Project\\DTOs\\BookDTOs\\GetBookByTitle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:19:49.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20240826141303_second migration.cs",
+              "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826141303_second migration.cs",
+              "RelativeDocumentMoniker": "Library Managment Project\\Migrations\\20240826141303_second migration.cs",
+              "ToolTip": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826141303_second migration.cs",
+              "RelativeToolTip": "Library Managment Project\\Migrations\\20240826141303_second migration.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T14:13:03.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
               "Title": "20240826135623_initial migration.cs",
               "DocumentMoniker": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Migrations\\20240826135623_initial migration.cs",
               "RelativeDocumentMoniker": "Library Managment Project\\Migrations\\20240826135623_initial migration.cs",
@@ -777,12 +924,7 @@
               "RelativeToolTip": "Library Managment Project\\Migrations\\20240826135623_initial migration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:56:23.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e3fb24c2-2e84-3146-a5f8-bc25bbc68f8a}"
+              "WhenOpened": "2024-08-26T13:56:23.314Z"
             }
           ]
         },

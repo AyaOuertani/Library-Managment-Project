@@ -43,9 +43,16 @@ namespace Library_Managment_Project.Service
 
         }
 
-        public void ReturnBook(string loanId)
+        public async Task<string> ReturnBook(ReturnLoanedBookRequest returnLoanedBookRequest)
         {
-            throw new NotImplementedException();
+            LoansBook loanBook = await _context.
+                                     LoansBooks.
+                                     FirstOrDefaultAsync(loanBookSelected =>  loanBookSelected.Book.Code == returnLoanedBookRequest.BookCode && 
+                                                                              loanBookSelected.Member.MemberCode == returnLoanedBookRequest.MemberCode);
+            if( loanBook == null ) return "no Loan found  found";
+            loanBook.LoanStatus = StatusOfLoans.Returned;
+            await _context.SaveChangesAsync();
+            return "Book Returned Successfully";
         }
     }
 }
