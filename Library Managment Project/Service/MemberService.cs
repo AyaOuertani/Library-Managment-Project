@@ -29,7 +29,7 @@ namespace Library_Managment_Project.Service
                                                                                                                              memberSelected.FirstName,
                                                                                                                              memberSelected.LastName,
                                                                                                                              memberSelected.Email,
-                                                                                                                             memberSelected.phone,
+                                                                                                                             memberSelected.Phone,
                                                                                                                              memberSelected.MemberShipType,
                                                                                                                              memberSelected.Loans.Select(loanSelected => loanSelected.Book.Title).ToList(),
                                                                                                                              memberSelected.CreateAt,
@@ -42,7 +42,7 @@ namespace Library_Managment_Project.Service
         #endregion
 
         #region ByNumber
-        public async Task<GetMemberByNumberResponse> GetByNumberAsync(long number)
+        public async Task<GetMemberByNumberResponse> GetByNumberAsync(int number)
         {
             Member? selectedMember = await _dbcontext.Member.Include(m => m.Loans)
                                                             .ThenInclude(loan => loan.Book)
@@ -58,7 +58,7 @@ namespace Library_Managment_Project.Service
             return new GetMemberByNumberResponse(selectedMember.FirstName,
                                                   selectedMember.LastName,
                                                   selectedMember.Email,
-                                                  selectedMember.phone,
+                                                  selectedMember.Phone,
                                                   selectedMember.MemberShipType,
                                                   loanedBooks,
                                                   selectedMember.CreateAt,
@@ -119,22 +119,22 @@ namespace Library_Managment_Project.Service
 
         #region Add
         public async Task<AddMemberResponse> AddAsync(AddMemberRequest request)
-        {
+        { 
             Member newMember = new Member
             {
                 Id = request.MemberId,
-                MemberCode = request.MemberNumber,
+                MemberCode = await GenerateUniqueMemberCodeAsync(),
                 FirstName = request.FirstName,
                 LastName = request.LastName,
                 Email = request.Email,
-                phone = request.PhoneNumber,
+                Phone = request.PhoneNumber,
                 MemberShipType = request.MemberShipType,
                 CreateAt = DateTime.Now,
                 UpdateAt = DateTime.Now,
             };
             _dbcontext.Member.Add(newMember);
             await _dbcontext.SaveChangesAsync();
-            return new AddMemberResponse(newMember.MemberCode, newMember.FirstName, newMember.LastName, newMember.Email, newMember.Password, newMember.phone, newMember.CreateAt, newMember.UpdateAt);
+            return new AddMemberResponse(newMember.MemberCode, newMember.FirstName, newMember.LastName, newMember.Email, newMember.Password, newMember.Phone, newMember.CreateAt, newMember.UpdateAt);
 
         }
 
@@ -148,7 +148,7 @@ namespace Library_Managment_Project.Service
 
           
             member.Email = memberRequest.Email is null || memberRequest.Email == "string" ? member.Email : memberRequest.Email;
-            member.phone = memberRequest.PhoneNumber is 0  ? member.phone : memberRequest.PhoneNumber;
+            member.Phone = memberRequest.PhoneNumber is 0  ? member.Phone : memberRequest.PhoneNumber;
             member.MemberShipType = memberRequest.MemberShipType;
             member.UpdateAt = DateTime.Now;
             await _dbcontext.SaveChangesAsync();
@@ -157,7 +157,7 @@ namespace Library_Managment_Project.Service
                                             member.LastName, 
                                             member.Email, 
                                             member.Password,
-                                            member.phone,
+                                            member.Phone,
                                             member.MemberShipType,
                                             member.CreateAt,
                                             member.UpdateAt);
@@ -165,7 +165,7 @@ namespace Library_Managment_Project.Service
         #endregion
 
         #region Delete
-        public async Task<bool> DeleteAsync(long memberNumber)
+        public async Task<bool> DeleteAsync(int memberNumber)
         {
             Member? member = await _dbcontext.Member.FindAsync(memberNumber)
                                                      ?? throw new KeyNotFoundException("Member Not Found");

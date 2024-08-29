@@ -11,7 +11,7 @@ namespace Library_Managment_Project.DTOs.LoanBookDTOs
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string BookTitle { get; set; }
-        public int PhoneNumber { get; set; }
+        public int Phone { get; set; }
         public string Email { get; set; }
         public LoanBookResponse(LoansBook loanBook)
         {
@@ -20,7 +20,7 @@ namespace Library_Managment_Project.DTOs.LoanBookDTOs
             FirstName = loanBook.Member.FirstName;
             LastName = loanBook.Member.LastName;
             BookTitle = loanBook.Book.Title;
-            PhoneNumber = loanBook.Member.PhoneNumber;
+            Phone = loanBook.Member.Phone;
             Email = loanBook.Member.Email;
         }
 

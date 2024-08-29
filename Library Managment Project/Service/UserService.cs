@@ -35,7 +35,7 @@ namespace Library_Managment_Project.Service
                     FirstName = request.FirstName,
                     LastName = request.LastName,
                     Email = request.Email,
-                    phone = request.PhoneNumber,
+                    Phone = request.PhoneNumber,
                     Role = request.Role,
                     Password = BCrypt.Net.BCrypt.HashPassword(request.Password)
                 };
@@ -55,7 +55,7 @@ namespace Library_Managment_Project.Service
                     FirstName = request.FirstName,
                     LastName = request.LastName,
                     Email = request.Email,
-                    phone = request.PhoneNumber,
+                    Phone = request.PhoneNumber,
                     Role = request.Role,
                     Password = BCrypt.Net.BCrypt.HashPassword(request.Password)
                 };
@@ -74,7 +74,7 @@ namespace Library_Managment_Project.Service
                     FirstName = request.FirstName,
                     LastName = request.LastName,
                     Email = request.Email,
-                    phone = request.PhoneNumber,
+                    Phone = request.PhoneNumber,
                     Role = request.Role,
                     Password = BCrypt.Net.BCrypt.HashPassword(request.Password)
                 };

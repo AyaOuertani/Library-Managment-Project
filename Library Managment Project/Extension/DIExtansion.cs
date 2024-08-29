@@ -11,7 +11,8 @@ namespace Library_Managment_Project.Extantions
                            .AddScoped<IMemberService, MemberService>()
                            .AddScoped<ILibrarianService, LibrarianService>()
                            .AddScoped<ILoanBookService, LoanBookService>()
-                           .AddScoped<IUserService, UserService>();
+                           .AddScoped<IUserService, UserService>()
+                           .AddScoped<IAdminService, AdminService>();
         }
 
     }

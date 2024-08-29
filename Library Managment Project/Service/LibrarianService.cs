@@ -27,7 +27,7 @@ namespace Library_Managment_Project.Service
                                                                                                                                         librarianSelected.FirstName,
                                                                                                                                         librarianSelected.LastName,
                                                                                                                                         librarianSelected.Email,
-                                                                                                                                        librarianSelected.PhoneNumber,
+                                                                                                                                        librarianSelected.Phone,
                                                                                                                                         librarianSelected.WorkSchedule))
                                                                                                                                         .ToListAsync();
 
@@ -48,7 +48,7 @@ namespace Library_Managment_Project.Service
             return new GetLibarianByIdResponse(libarianSelected.FirstName,
                                                libarianSelected.LastName,
                                                libarianSelected.Email,
-                                               libarianSelected.phone,
+                                               libarianSelected.Phone,
                                                libarianSelected.WorkSchedule);
         }
         #endregion
@@ -63,7 +63,7 @@ namespace Library_Managment_Project.Service
                 FirstName = request.FirstName,
                 LastName = request.LastName,
                 Email = request.Email,
-                phone = request.PhoneNumber,
+                Phone = request.PhoneNumber,
                 WorkSchedule = request.WorkSchedule
             };
             _dbcontext.Librarian.Add(newLibarian);
@@ -72,7 +72,7 @@ namespace Library_Managment_Project.Service
                                            newLibarian.FirstName,
                                            newLibarian.LastName,
                                            newLibarian.Email,
-                                           newLibarian.phone,
+                                           newLibarian.Phone,
                                            newLibarian.WorkSchedule);
 
         }
@@ -87,7 +87,7 @@ namespace Library_Managment_Project.Service
 
 
             libarian.Email = request.Email is null || request.Email == "string" ? libarian.Email : request.Email;
-            libarian.phone = request.PhoneNumber is 0 ? libarian.phone : request.PhoneNumber;
+            libarian.Phone = request.PhoneNumber is 0 ? libarian.Phone : request.PhoneNumber;
             libarian.WorkSchedule = request.WorkSchedule;
             libarian.UpdateAt = DateTime.Now;
             await _dbcontext.SaveChangesAsync();
@@ -95,7 +95,7 @@ namespace Library_Managment_Project.Service
                                               libarian.FirstName,
                                               libarian.LastName,
                                               libarian.Email,
-                                              libarian.phone,
+                                              libarian.Phone,
                                               libarian.WorkSchedule);
         }
         #endregion

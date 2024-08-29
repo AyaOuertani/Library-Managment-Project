@@ -4,7 +4,7 @@ namespace Library_Managment_Project.DTOs.MemberDTOs
 {
     public class UpdateMemberResponse
     { 
-        public long MemberNumber {  get; set; }
+        public int MemberNumber {  get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
@@ -13,7 +13,7 @@ namespace Library_Managment_Project.DTOs.MemberDTOs
         public MemberShipType MemberShipType { get; set; } 
         public DateTime CreateAt { get; set; }
         public DateTime UpdateAt { get; set; }
-        public UpdateMemberResponse(long memberNumber,string firstName, string lastName, string email,string password ,int phoneNumber, MemberShipType memberShipType,  DateTime createDate, DateTime updateDate)
+        public UpdateMemberResponse(int memberNumber,string firstName, string lastName, string email,string password ,int phoneNumber, MemberShipType memberShipType,  DateTime createDate, DateTime updateDate)
         {
             MemberNumber = memberNumber;
             FirstName = firstName;
