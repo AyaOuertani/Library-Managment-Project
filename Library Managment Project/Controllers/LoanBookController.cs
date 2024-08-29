@@ -24,5 +24,10 @@ namespace Library_Managment_Project.Controllers
 
 
         }
+        [HttpPut]
+        public async Task<IActionResult> ReturnBook(ReturnLoanedBookRequest returnLoanedBookRequest)
+        {
+            return Ok(await _loanBookService.ReturnBook(returnLoanedBookRequest));
+        } 
     }
 }

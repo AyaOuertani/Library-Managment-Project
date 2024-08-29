@@ -1,8 +1,6 @@
 ﻿
 using Library_Managment_Project.Entities;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Reflection.Emit;
 namespace LibraryManagment.Data
 {
     public class ApplicationDBcontext : DbContext
@@ -24,8 +22,25 @@ namespace LibraryManagment.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Librarian>().HasIndex(l => l.Email)
+                                            .IsUnique();
 
-            modelBuilder.Entity<LoansBook>(x => x.HasKey(l => new { l.MemberId, l.BookId }));
+            modelBuilder.Entity<Librarian>().HasIndex(l => l.PhoneNumber)
+                                            .IsUnique();
+
+            modelBuilder.Entity<Admin>().HasIndex(a => a.Email)
+                                        .IsUnique();
+
+            modelBuilder.Entity<Admin>().HasIndex(a => a.PhoneNumber)
+                                        .IsUnique();
+
+            modelBuilder.Entity<Member>().HasIndex(m => m.Email)
+                                         .IsUnique();
+
+            modelBuilder.Entity<Member>().HasIndex(m => m.PhoneNumber)
+                                         .IsUnique();
+
+            modelBuilder.Entity<LoansBook>().HasKey(l => l.Id);
 
             modelBuilder.Entity<LoansBook>()
                         .HasOne(l => l.Member)

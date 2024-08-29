@@ -290,3 +290,13 @@ C:\Users\alaam\Source\Repos\Library-Managment-Project\Library Managment Project\
 C:\Users\alaam\Source\Repos\Library-Managment-Project\Library Managment Project\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\AutoMapper.dll
 D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Web.Mvc.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Web.Razor.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Web.Http.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Web.Helpers.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Web.WebPages.dll
+D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll

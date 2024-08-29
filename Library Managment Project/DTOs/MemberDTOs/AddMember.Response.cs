@@ -2,7 +2,7 @@
 {
     public class AddMemberResponse
     {
-        public long MemberNumber { get; set; }
+        public int MemberNumber { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
@@ -12,7 +12,7 @@
         public DateTime CreateAt { get; set; }
         public DateTime UpdateAt { get; set; }
 
-        public AddMemberResponse(long memberNumber, string firstName, string lastName, string email, string password, int phoneNumber, DateTime createAt, DateTime updateAt)
+        public AddMemberResponse(int memberNumber, string firstName, string lastName, string email, string password, int phoneNumber, DateTime createAt, DateTime updateAt)
         {
             MemberNumber = memberNumber;
             FirstName = firstName;

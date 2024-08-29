@@ -23,11 +23,18 @@ namespace Library_Managment_Project.Service
         {
             Book book = await _context.Book.FirstOrDefaultAsync(bookSelected => bookSelected.Code == loanBookRequest.BookCode);
             Member member = await _context.Member.FirstOrDefaultAsync(memberSelected => memberSelected.MemberCode == loanBookRequest.MemberCode);
-            if(book == null )
+            if (book == null)
                 throw new Exception("Book not found");
-            if(member == null)
+            if (member == null)
                 throw new Exception("Member not found");
-            LoansBook loanBook =  new LoansBook()
+            if (book.Qte == 0)
+                throw new Exception("Book is not available");
+            if (await _context.LoansBooks.FirstOrDefaultAsync(loanBook => loanBook.Book.Id == book.Id &&
+                                                                          loanBook.Member.Id == member.Id &&
+                                                                          (loanBook.LoanStatus == StatusOfLoans.Pending
+                                                                          || loanBook.LoanStatus == StatusOfLoans.Overdue)) != null)
+                throw new Exception("Book is already loaned by this member");
+            LoansBook loanBook = new LoansBook()
             {
                 BookId = book.Id,
                 MemberId = member.Id,
@@ -35,17 +42,26 @@ namespace Library_Managment_Project.Service
                 DateOfReturn = DateTime.Now.AddDays(7),
                 LoanStatus = StatusOfLoans.Pending
             };
-
+            book.Qte--;
             _context.Add(loanBook);
+            _context.Update(book);
             await _context.SaveChangesAsync();
-
             return new LoanBookResponse(loanBook);
-
         }
-
-        public void ReturnBook(string loanId)
+        public async Task<string> ReturnBook(ReturnLoanedBookRequest returnLoanedBookRequest)
         {
-            throw new NotImplementedException();
+            LoansBook? loanBook = await _context.
+                                     LoansBooks.
+                                     FirstOrDefaultAsync(loanBookSelected => loanBookSelected.Book.Code == returnLoanedBookRequest.BookCode &&
+                                                                              loanBookSelected.Member.MemberCode == returnLoanedBookRequest.MemberCode &&
+                                                                              (loanBookSelected.LoanStatus == StatusOfLoans.Pending || loanBookSelected.LoanStatus == StatusOfLoans.Overdue));
+            if (loanBook == null) return "no Loan found  found";
+            Book? book = await _context.Book.FindAsync(loanBook.BookId);
+            book.Qte++;
+            _context.Update(book);
+            loanBook.LoanStatus = StatusOfLoans.Returned;
+            await _context.SaveChangesAsync();
+            return "Book Returned Successfully";
         }
     }
 }
