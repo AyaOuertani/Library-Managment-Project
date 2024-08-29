@@ -17,11 +17,11 @@ namespace Library_Managment_Project.Service
         #region Get
 
         #region All
-        public async Task<PaginatedList<GetAllBooksResponce>> GetAllAsync(int pageNumber, int pageSize)
+        public async Task<PaginatedList<GetAllBooksResponse>> GetAllAsync(int pageNumber, int pageSize)
         {
-            List<GetAllBooksResponce> books = await _dbcontext.Book.Skip((pageNumber - 1) * pageSize)
+            List<GetAllBooksResponse> books = await _dbcontext.Book.Skip((pageNumber - 1) * pageSize)
                                                                    .Take(pageSize)
-                                                                   .Select(b => new GetAllBooksResponce(b.Title,
+                                                                   .Select(b => new GetAllBooksResponse(b.Title,
                                                                                                         b.Code,
                                                                                                         b.Auther,
                                                                                                         b.Qte,
@@ -30,10 +30,9 @@ namespace Library_Managment_Project.Service
                                                                                                         b.PublishDate)).ToListAsync();
             int count = await _dbcontext.Book.CountAsync();
             int totalPages = (int)Math.Ceiling(count / (double)pageSize);
-            return new PaginatedList<GetAllBooksResponce>(books, pageNumber, totalPages);
+            return new PaginatedList<GetAllBooksResponse>(books, pageNumber, totalPages);
         }
         #endregion
-
 
         #region ByCode
         public async Task<GetBookByCodeResponse> GetByCodeAsync(int code)
@@ -71,8 +70,8 @@ namespace Library_Managment_Project.Service
         }
         #endregion
 
-        #region ByAuther
-        public async Task<GetBookByAuthorResponse> GetByAutherAsync(string auther)
+        #region ByAuthor
+        public async Task<PaginatedList<GetBookByAuthorResponse>> GetByAuthorAsync(string author, int pageNumber, int pageSize)
         {
             Book? searchedBoook = await _dbcontext.Book.FirstOrDefaultAsync(bookSelected => bookSelected.Auther.ToUpper() == auther.ToUpper());
             if (searchedBoook == null)
@@ -88,10 +87,11 @@ namespace Library_Managment_Project.Service
                                                searchedBoook.UpdatedDate);
         }
 
+
         #endregion
 
         #region ByAvailability
-        public async Task<PaginatedList<GetBookByAvailabilityResponce>> GetByAvailabilityAsync(int pageNumber, int pageSize)
+        public async Task<PaginatedList<GetBookByAvailabilityResponse>> GetByAvailabilityAsync(int pageNumber, int pageSize)
         {
             List<Book> availableBooks = await _dbcontext.Book.Where(b => b.Qte > 0).ToListAsync();
             return availableBooks.Count == 0
