@@ -29,12 +29,12 @@ namespace Library_Managment_Project.Controllers
 
         #region LoanedBooks
         [HttpGet("loaned-books/{memberId}")]
-        public async Task<IActionResult> GetLoanedAsync(string memberId, int pageNumber = 1, int pageSize = 10) => Ok(await _memberService.GetLoanedAsync(memberId, pageNumber, pageSize));
+        public async Task<IActionResult> GetLoanedAsync(int memberId, int pageNumber = 1, int pageSize = 10) => Ok(await _memberService.GetLoanedAsync(memberId, pageNumber, pageSize));
         #endregion
 
         #region CurrentLoans
         [HttpGet("Current-Loans/{memberId}")]
-        public async Task<IActionResult> GetCurrentLoansAsync(string memberId, int pageNumber = 1, int pageSize = 10) => Ok(await _memberService.GetCurrentLoansAsync(memberId, pageNumber, pageSize));
+        public async Task<IActionResult> GetCurrentLoansAsync(int memberId, int pageNumber = 1, int pageSize = 10) => Ok(await _memberService.GetCurrentLoansAsync(memberId, pageNumber, pageSize));
         #endregion
 
         #endregion

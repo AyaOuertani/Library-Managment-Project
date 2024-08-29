@@ -6,7 +6,6 @@ namespace Library_Managment_Project.DTOs.BookDTOs
     public class AddBookRequest
     {
         [Required]
-        public int Id { get; set; }
         public string Title { get; set; }
         public int Code { get; set; }
         public string Auther { get; set; }

@@ -8,7 +8,9 @@ namespace Library_Managment_Project.Extantions
         public static IServiceCollection AddServices(this IServiceCollection services)
         {
             return services.AddScoped<IBooksService, BookService>()
-                           .AddScoped<IMemberService, MemberService>();
+                           .AddScoped<IMemberService, MemberService>()
+                           .AddScoped<ILibrarianService, LibrarianService>()
+                           .AddScoped<ILoanBookService, LoanBookService>();
         }
 
     }

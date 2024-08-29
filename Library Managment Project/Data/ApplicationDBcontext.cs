@@ -24,9 +24,8 @@ namespace LibraryManagment.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<LoansBook>(x => x.HasKey(l => new { l.MemberId, l.BookId }));
-
+            modelBuilder.Entity<LoansBook>()
+                .HasKey(l => l.Id);
             modelBuilder.Entity<LoansBook>()
                         .HasOne(l => l.Member)
                         .WithMany(m => m.Loans)
@@ -36,6 +35,8 @@ namespace LibraryManagment.Data
                         .HasOne(b => b.Book)
                         .WithMany(b => b.Loans)
                         .HasForeignKey(l => l.BookId);
+            
+
         }
         #endregion
 

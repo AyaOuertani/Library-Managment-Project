@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using LibraryManagment.Data;
 using Library_Managment_Project.Extantions;
+using Library_Managment_Project.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 builder.Services.AddServices();
+builder.Services.AddHostedService<LoanCheckerService>();
 IServiceCollection serviceCollection = builder.Services.AddDbContext<ApplicationDBcontext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();

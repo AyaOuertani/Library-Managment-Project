@@ -37,11 +37,11 @@ namespace Library_Managment_Project.Controllers
 
         #region ByAuther
         [HttpGet("SearchByAuther/{auther}")]
-        public async Task<IActionResult> GetByAuther(string auther,int pageNumber = 1, int pageSize = 10) => Ok(await _bookService.GetByAutherAsync(auther, pageNumber,pageSize));
+        public async Task<IActionResult> GetByAuthor(string auther,int pageNumber = 1, int pageSize = 10) => Ok(await _bookService.GetByAuthorAsync(auther, pageNumber,pageSize));
         #endregion
 
         #region ByAvailability
-        [HttpGet("Availability/{Book}")]
+        [HttpGet("Availability")]
         public async Task<IActionResult> GetByAvailability(int pageNumber = 1, int pageSize =10) => Ok(await _bookService.GetByAvailabilityAsync(pageNumber, pageSize));
 
         #endregion
@@ -61,7 +61,7 @@ namespace Library_Managment_Project.Controllers
 
         #region Delete
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteAsync (string id)
+        public async Task<IActionResult> DeleteAsync (int id)
         { 
             return (await _bookService.DeleteAsync(id)) ? Ok("Deleted Successfully") : NotFound("Failed To Delete");
         }

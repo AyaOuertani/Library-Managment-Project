@@ -4618,11 +4618,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alaam\\Source\\Repos\\Library-Managment-Project\\Library Managment Project\\Library Managment Project.csproj",
+      "projectUniqueName": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Library Managment Project.csproj",
       "projectName": "Library Managment Project",
-      "projectPath": "C:\\Users\\alaam\\Source\\Repos\\Library-Managment-Project\\Library Managment Project\\Library Managment Project.csproj",
+      "projectPath": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\Library Managment Project.csproj",
       "packagesPath": "C:\\Users\\alaam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alaam\\Source\\Repos\\Library-Managment-Project\\Library Managment Project\\obj\\",
+      "outputPath": "C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4724,5 +4724,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\alaam\\source\\repos\\Library-Managment-Project\\Library Managment Project\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

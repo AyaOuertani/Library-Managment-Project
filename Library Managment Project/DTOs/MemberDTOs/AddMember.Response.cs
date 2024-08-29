@@ -1,6 +1,6 @@
 ﻿namespace Library_Managment_Project.DTOs.MemberDTOs
 {
-    public class AddMemberResponce
+    public class AddMemberResponse
     {
         public long MemberNumber { get; set; }
         public string FirstName { get; set; }
@@ -12,7 +12,7 @@
         public DateTime CreateAt { get; set; }
         public DateTime UpdateAt { get; set; }
 
-        public AddMemberResponce(long memberNumber, string firstName, string lastName, string email, string password, int phoneNumber, DateTime createAt, DateTime updateAt)
+        public AddMemberResponse(long memberNumber, string firstName, string lastName, string email, string password, int phoneNumber, DateTime createAt, DateTime updateAt)
         {
             MemberNumber = memberNumber;
             FirstName = firstName;
