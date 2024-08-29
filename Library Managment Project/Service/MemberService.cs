@@ -5,6 +5,7 @@ using Library_Managment_Project.Interface;
 using Library_Managment_Project.Models;
 using LibraryManagment.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Cryptography;
 
 namespace Library_Managment_Project.Service
 {
@@ -177,7 +178,31 @@ namespace Library_Managment_Project.Service
             return true;
         }
         #endregion
+
+        #region GenerateCodeMember
+        public async Task<int> GenerateUniqueMemberCodeAsync()
+        {
+            int newMemberCode;
+            bool isUnique = false;
+            do
+            {
+                newMemberCode = GenerateRandomInt();
+                isUnique = !await _dbcontext.Member.AnyAsync(u => u.MemberCode == newMemberCode);
+            }
+            while (!isUnique);
+
+            return newMemberCode;
+        }
+        private int GenerateRandomInt()
+        {
+            byte[] buffer = new byte[8];
+            RandomNumberGenerator.Fill(buffer);
+            return Math.Abs(BitConverter.ToInt32(buffer, 0));
+        }
+        #endregion
+
     }
     #endregion
-
 }
+
+

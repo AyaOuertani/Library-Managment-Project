@@ -10,7 +10,8 @@ namespace Library_Managment_Project.Extantions
             return services.AddScoped<IBooksService, BookService>()
                            .AddScoped<IMemberService, MemberService>()
                            .AddScoped<ILibrarianService, LibrarianService>()
-                           .AddScoped<ILoanBookService, LoanBookService>();
+                           .AddScoped<ILoanBookService, LoanBookService>()
+                           .AddScoped<IUserService, UserService>();
         }
 
     }

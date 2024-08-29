@@ -21,6 +21,7 @@ namespace Library_Managment_Project.DTOs.MemberDTOs
             Email = email;
             PhoneNumber = phoneNumber;
             MemberShipType = memberShipType;
+            Bookloaned = bookLoaned;
             CreateAt = createDate;
             UpdateAt = updateDate;
             Bookloaned = BookLoaneds;
