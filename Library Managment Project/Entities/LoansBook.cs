@@ -5,7 +5,6 @@ namespace Library_Managment_Project.Entities
 {
     public class LoansBook
     {
-       
         public int Id { get; set; }
         public DateTime  DateOfLoan { get; set; }
         public DateTime DateOfReturn { get; set; }

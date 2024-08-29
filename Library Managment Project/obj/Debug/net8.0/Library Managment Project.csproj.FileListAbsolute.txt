@@ -300,3 +300,13 @@ D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8
 D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
 D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\System.Web.WebPages.dll
 D:\Intrenship\Project\Library Managment\Library Managment Project\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll
+C:\Users\alaam\source\repos\Library-Managment-Project\Library Managment Project\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\alaam\source\repos\Library-Managment-Project\Library Managment Project\bin\Debug\net8.0\System.Web.Mvc.dll
+C:\Users\alaam\source\repos\Library-Managment-Project\Library Managment Project\bin\Debug\net8.0\System.Web.Razor.dll
+C:\Users\alaam\source\repos\Library-Managment-Project\Library Managment Project\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\Users\alaam\source\repos\Library-Managment-Project\Library Managment Project\bin\Debug\net8.0\System.Web.Http.dll
+C:\Users\alaam\source\repos\Library-Managment-Project\Library Managment Project\bin\Debug\net8.0\System.Web.Helpers.dll
+C:\Users\alaam\source\repos\Library-Managment-Project\Library Managment Project\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+C:\Users\alaam\source\repos\Library-Managment-Project\Library Managment Project\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+C:\Users\alaam\source\repos\Library-Managment-Project\Library Managment Project\bin\Debug\net8.0\System.Web.WebPages.dll
+C:\Users\alaam\source\repos\Library-Managment-Project\Library Managment Project\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll

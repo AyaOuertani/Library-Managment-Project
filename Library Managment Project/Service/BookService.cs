@@ -37,6 +37,7 @@ namespace Library_Managment_Project.Service
         #region ByCode
         public async Task<GetBookByCodeResponse> GetByCodeAsync(int code)
         {
+
             Book? searchedBook = await _dbcontext.Book.FirstOrDefaultAsync(bookSelected => bookSelected.Code == code);
             if (searchedBook == null)
                 throw new KeyNotFoundException("Book NoT Found !");
@@ -73,18 +74,27 @@ namespace Library_Managment_Project.Service
         #region ByAuthor
         public async Task<PaginatedList<GetBookByAuthorResponse>> GetByAuthorAsync(string author, int pageNumber, int pageSize)
         {
-            Book? searchedBoook = await _dbcontext.Book.FirstOrDefaultAsync(bookSelected => bookSelected.Auther.ToUpper() == auther.ToUpper());
-            if (searchedBoook == null)
-                throw new KeyNotFoundException("Auther Not Found!");
-            return new GetBookByAuthorResponse(searchedBoook.Id,
-                                               searchedBoook.Title,
-                                               searchedBoook.Code,
-                                               searchedBoook.Qte,
-                                               searchedBoook.About,
-                                               searchedBoook.Category,
-                                               searchedBoook.PublishDate,
-                                               searchedBoook.CreatedDate,
-                                               searchedBoook.UpdatedDate);
+            List<Book> searchedBooks = await _dbcontext.Book.Where(bookSelected => bookSelected.Auther.ToUpper() == author.ToUpper())
+                                                            .Skip((pageNumber - 1) * pageSize)
+                                                            .Take(pageSize)
+                                                            .ToListAsync();
+
+            if (!searchedBooks.Any())
+                throw new KeyNotFoundException("Author Not Found!");
+
+            List<GetBookByAuthorResponse> responseList = searchedBooks.Select(book => new GetBookByAuthorResponse(book.Id,
+                                                                                                                  book.Title,
+                                                                                                                  book.Code,
+                                                                                                                  book.Qte,
+                                                                                                                  book.About,
+                                                                                                                  book.Category,
+                                                                                                                  book.PublishDate,
+                                                                                                                  book.CreatedDate,
+                                                                                                                  book.UpdatedDate
+                                                                                                                  )).ToList();
+            int count = searchedBooks.Count();
+            int totalPages = (int)Math.Ceiling(count / (double)pageSize);
+            return new PaginatedList<GetBookByAuthorResponse>(responseList, pageNumber, pageSize);
         }
 
 
@@ -93,83 +103,99 @@ namespace Library_Managment_Project.Service
         #region ByAvailability
         public async Task<PaginatedList<GetBookByAvailabilityResponse>> GetByAvailabilityAsync(int pageNumber, int pageSize)
         {
-            List<Book> availableBooks = await _dbcontext.Book.Where(b => b.Qte > 0).ToListAsync();
-            return availableBooks.Count == 0
-                ? throw new KeyNotFoundException("Not Found")
-                : (IEnumerable<GetBookByAvailabilityResponce>)availableBooks.Select(b => new GetBookByAvailabilityResponce(b.Id, b.Title, b.Code, b.Auther, b.Qte, b.About, b.Category, b.PublishDate, b.CreatedDate, b.UpdatedDate));
 
-            #endregion
+            List<Book> availableBooks = await _dbcontext.Book.Where(b => b.Qte > 0)
+                                                             .Skip((pageNumber - 1) * pageSize)
+                                                             .Take(pageSize)
+                                                             .ToListAsync();
+            if (availableBooks.Count == 0)
+                throw new KeyNotFoundException("Not Found");
+            List<GetBookByAvailabilityResponse> responseList = availableBooks.Select(b => new GetBookByAvailabilityResponse(b.Id,
+                                                                                                                            b.Title,
+                                                                                                                            b.Code,
+                                                                                                                            b.Auther,
+                                                                                                                            b.Qte,
+                                                                                                                            b.About,
+                                                                                                                            b.Category,
+                                                                                                                            b.PublishDate,
+                                                                                                                            b.CreatedDate,
+                                                                                                                            b.UpdatedDate)).ToList();
+            int count = availableBooks.Count();
+            int totalPages = (int)Math.Ceiling(count / (double)pageSize);
+            return new PaginatedList<GetBookByAvailabilityResponse>(responseList, pageNumber, pageSize);
         }
-            #endregion
+
+        #endregion
+
+        #endregion
 
         #region Add
-            public async Task<AddBookResponse> AddAsync(AddBookRequest book)
+        public async Task<AddBookResponse> AddAsync(AddBookRequest book)
+        {
+            Book newBook = new Book
             {
-                Book newBook = new Book
-                {
-                    Id = book.Id,
-                    Title = book.Title,
-                    Code = book.Code,
-                    Auther = book.Auther,
-                    Qte = book.Qte,
-                    About = book.Auther,
-                    Category = book.Category,
-                    PublishDate = book.PublishDate,
-                    CreatedDate = DateTime.Now,
-                    UpdatedDate = DateTime.Now,
-                };
-                _dbcontext.Add(newBook);
-                await _dbcontext.SaveChangesAsync();
-                return new AddBookResponse(newBook.Id,
-                                           newBook.Title,
-                                           newBook.Code,
-                                           newBook.Auther,
-                                           newBook.Qte,
-                                           newBook.About,
-                                           newBook.Category,
-                                           newBook.PublishDate,
-                                           newBook.CreatedDate,
-                                           newBook.UpdatedDate);
-            }
-            #endregion
+                Title = book.Title,
+                Code = book.Code,
+                Auther = book.Auther,
+                Qte = book.Qte,
+                About = book.Auther,
+                Category = book.Category,
+                PublishDate = book.PublishDate,
+                CreatedDate = DateTime.Now,
+                UpdatedDate = DateTime.Now,
+            };
+            _dbcontext.Add(newBook);
+            await _dbcontext.SaveChangesAsync();
+
+            return new AddBookResponse(newBook.Id,
+                                       newBook.Title,
+                                       newBook.Code,
+                                       newBook.Auther,
+                                       newBook.Qte,
+                                       newBook.About,
+                                       newBook.Category,
+                                       newBook.PublishDate,
+                                       newBook.CreatedDate,
+                                       newBook.UpdatedDate);
+        }
+        #endregion
 
         #region Update
-            public async Task<UpdateBookResponse> UpdateAsync(UpdateBookRequest book)
-            {
+        public async Task<UpdateBookResponse> UpdateAsync(UpdateBookRequest book)
+        {
 
-                Book? bookInDb = await _dbcontext.Book.FindAsync(book.Id);
-                if (bookInDb == null)
-                    throw new KeyNotFoundException("Book not found");
-                bookInDb.Qte = book.Qte;
-                bookInDb.Qte = book.Qte;
-                bookInDb.About = book.About;
-                bookInDb.UpdatedDate = DateTime.Now;
-                await _dbcontext.SaveChangesAsync();
-                return new UpdateBookResponse(bookInDb.Id,
-                                              bookInDb.Title,
-                                              bookInDb.Code,
-                                              bookInDb.Auther,
-                                              bookInDb.Qte,
-                                              bookInDb.About,
-                                              bookInDb.Category,
-                                              bookInDb.PublishDate,
-                                              bookInDb.CreatedDate,
-                                              bookInDb.UpdatedDate);
-            }
-            #endregion
+            Book? bookInDb = await _dbcontext.Book.FindAsync(book.Id);
+            if (bookInDb == null)
+                throw new KeyNotFoundException("Book not found");
+            bookInDb.Qte = book.Qte;
+            bookInDb.Qte = book.Qte;
+            bookInDb.About = book.About;
+            bookInDb.UpdatedDate = DateTime.Now;
+            await _dbcontext.SaveChangesAsync();
+            return new UpdateBookResponse(bookInDb.Id,
+                                          bookInDb.Title,
+                                          bookInDb.Code,
+                                          bookInDb.Auther,
+                                          bookInDb.Qte,
+                                          bookInDb.About,
+                                          bookInDb.Category,
+                                          bookInDb.PublishDate,
+                                          bookInDb.CreatedDate,
+                                          bookInDb.UpdatedDate);
+        }
+        #endregion
 
         #region Delete
-            public async Task<bool> DeleteAsync(string id)
-            {
-                Book? bookInDb = await _dbcontext.Book.FindAsync(id);
-                if (bookInDb == null)
-                    return false;
-                _dbcontext.Book.Remove(bookInDb);
-                await _dbcontext.SaveChangesAsync();
-                return true;
-            }
-            #endregion
+        public async Task<bool> DeleteAsync(int id)
+        {
+            Book? bookInDb = await _dbcontext.Book.FindAsync(id);
+            if (bookInDb == null)
+                return false;
+            _dbcontext.Book.Remove(bookInDb);
+            await _dbcontext.SaveChangesAsync();
+            return true;
+        }
+        #endregion
     }
 
 }
-
