@@ -6,15 +6,15 @@ namespace Library_Managment_Project.DTOs.MemberDTOs
     {
         public string BookTitle { get; set; }
         public int Code { get; set; }
-        public string Auther { get; set; }
+        public string Author { get; set; }
         public DateTime DateOfLoan { get; set; }
         public DateTime DateOfReturn { get; set; }
         public StatusOfLoans LoanStatus { get; set; }
-        public GetCurrentLoansResponse(string bookTitle, int code, string auther, StatusOfLoans statusOfLoans, DateTime dateOfLoan, DateTime dateOfReturn)
+        public GetCurrentLoansResponse(string bookTitle, int code, string author, StatusOfLoans statusOfLoans, DateTime dateOfLoan, DateTime dateOfReturn)
         {
             BookTitle = bookTitle;
             Code = code;
-            Auther = auther;
+            Author = author;
             DateOfLoan = dateOfLoan;
             DateOfReturn = dateOfReturn;
             LoanStatus = statusOfLoans;

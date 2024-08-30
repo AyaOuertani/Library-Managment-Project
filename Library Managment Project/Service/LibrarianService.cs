@@ -27,7 +27,7 @@ namespace Library_Managment_Project.Service
                                                                                                                                         librarianSelected.FirstName,
                                                                                                                                         librarianSelected.LastName,
                                                                                                                                         librarianSelected.Email,
-                                                                                                                                        librarianSelected.PhoneNumber,
+                                                                                                                                        librarianSelected.Phone,
                                                                                                                                         librarianSelected.WorkSchedule))
                                                                                                                                         .ToListAsync();
 
@@ -39,17 +39,17 @@ namespace Library_Managment_Project.Service
         #endregion
 
         #region ById
-        public async Task<GetLibarianByIdResponse> GetByNumberAsync(int id)
+        public async Task<GetLibrarianByIdResponse> GetByNumberAsync(int id)
         {
-            Librarian? libarianSelected = await _dbcontext.Librarian.FindAsync(id);
-            if (libarianSelected == null)
-                throw new KeyNotFoundException("Member Not Found!");
+            Librarian? librarianSelected = await _dbcontext.Librarian.FindAsync(id);
+            if (librarianSelected == null)
+                throw new KeyNotFoundException("Librarian Not Found!");
 
-            return new GetLibarianByIdResponse(libarianSelected.FirstName,
-                                               libarianSelected.LastName,
-                                               libarianSelected.Email,
-                                               libarianSelected.phone,
-                                               libarianSelected.WorkSchedule);
+            return new GetLibrarianByIdResponse(librarianSelected.FirstName,
+                                               librarianSelected.LastName,
+                                               librarianSelected.Email,
+                                               librarianSelected.Phone,
+                                               librarianSelected.WorkSchedule);
         }
         #endregion
 
@@ -58,22 +58,26 @@ namespace Library_Managment_Project.Service
         #region Add
         public async Task<AddLibrarianResponse> AddAsync(AddLibrarianRequest request)
         {
-            Librarian newLibarian = new Librarian
+            Librarian librarian = new Librarian
             {
                 FirstName = request.FirstName,
                 LastName = request.LastName,
                 Email = request.Email,
-                phone = request.PhoneNumber,
-                WorkSchedule = request.WorkSchedule
+                Phone = request.PhoneNumber,
+                WorkSchedule = request.WorkSchedule,
+                CreateAt = DateTime.Now,
+                UpdateAt = DateTime.Now,
+                Password = BCrypt.Net.BCrypt.HashPassword(request.Password)
             };
-            _dbcontext.Librarian.Add(newLibarian);
+            _dbcontext.Librarian.Add(librarian);
             await _dbcontext.SaveChangesAsync();
-            return new AddLibrarianResponse(newLibarian.Id,
-                                           newLibarian.FirstName,
-                                           newLibarian.LastName,
-                                           newLibarian.Email,
-                                           newLibarian.phone,
-                                           newLibarian.WorkSchedule);
+            return new AddLibrarianResponse(librarian.Id,
+                                           librarian.FirstName,
+                                           librarian.LastName,
+                                           librarian.Email,
+                                           librarian.Phone,
+                                           librarian.WorkSchedule,
+                                           librarian.CreateAt);
 
         }
 
@@ -82,21 +86,23 @@ namespace Library_Managment_Project.Service
         #region Update
         public async Task<UpdateLibrarianResponse> UpdateAsync(UpdateLibrarianRequest request)
         {
-            Librarian libarian = _dbcontext.Librarian.Find(request.Id)
-                                              ?? throw new KeyNotFoundException("Libarian Not Found");
-
-
-            libarian.Email = request.Email is null || request.Email == "string" ? libarian.Email : request.Email;
-            libarian.phone = request.PhoneNumber is 0 ? libarian.phone : request.PhoneNumber;
-            libarian.WorkSchedule = request.WorkSchedule;
-            libarian.UpdateAt = DateTime.Now;
+            Librarian librarian = _dbcontext.Librarian.Find(request.Id)
+                                              ?? throw new KeyNotFoundException("Librarian Not Found");
+            librarian.Email = request.Email ?? librarian.Email;
+            librarian.Phone = request.PhoneNumber ?? librarian.Phone;
+            librarian.WorkSchedule = request.WorkSchedule??librarian.WorkSchedule;
+            librarian.FirstName = request.FirstName ?? librarian.FirstName;
+            librarian.LastName = request.LastName ?? librarian.LastName;
+            librarian.PhoneNumber = request.PhoneNumber ?? librarian.PhoneNumber;
+            librarian.Password = request.Password ?? librarian.Password;
+            librarian.UpdateAt = DateTime.Now;
             await _dbcontext.SaveChangesAsync();
-            return new UpdateLibrarianResponse(libarian.Id,
-                                              libarian.FirstName,
-                                              libarian.LastName,
-                                              libarian.Email,
-                                              libarian.phone,
-                                              libarian.WorkSchedule);
+            return new UpdateLibrarianResponse(librarian.Id,
+                                              librarian.FirstName,
+                                              librarian.LastName,
+                                              librarian.Email,
+                                              librarian.Phone,
+                                              librarian.WorkSchedule);
         }
         #endregion
 

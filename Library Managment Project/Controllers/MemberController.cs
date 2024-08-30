@@ -23,7 +23,7 @@ namespace Library_Managment_Project.Controllers
 
         #region ByNumber
         [HttpGet("Member-Number/{number}")]
-        public async Task<IActionResult> GetByNumberAsync(long number) => Ok(await _memberService.GetByNumberAsync(number));
+        public async Task<IActionResult> GetByNumberAsync(int number) => Ok(await _memberService.GetByNumberAsync(number));
 
         #endregion
 
@@ -51,7 +51,7 @@ namespace Library_Managment_Project.Controllers
 
         #region Delete
         [HttpDelete("{number}")]
-        public async Task<IActionResult> DeleteAsync(long number)
+        public async Task<IActionResult> DeleteAsync(int number)
         {
             return (await _memberService.DeleteAsync(number)) ? Ok("Deleted Successfully") : NotFound("Failed To Delete");
         }

@@ -310,3 +310,4 @@ C:\Users\alaam\source\repos\Library-Managment-Project\Library Managment Project\
 C:\Users\alaam\source\repos\Library-Managment-Project\Library Managment Project\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
 C:\Users\alaam\source\repos\Library-Managment-Project\Library Managment Project\bin\Debug\net8.0\System.Web.WebPages.dll
 C:\Users\alaam\source\repos\Library-Managment-Project\Library Managment Project\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll
+C:\Users\alaam\source\repos\Library-Managment-Project\Library Managment Project\bin\Debug\net8.0\BouncyCastle.Crypto.dll

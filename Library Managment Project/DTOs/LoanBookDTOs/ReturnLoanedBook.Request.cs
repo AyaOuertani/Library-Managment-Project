@@ -2,7 +2,7 @@
 {
     public class ReturnLoanedBookRequest
     {
-        public long MemberCode { get; set; }
+        public int MemberCode { get; set; }
         public int BookCode { get; set; }
     }
 }

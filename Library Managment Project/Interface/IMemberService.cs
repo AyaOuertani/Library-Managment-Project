@@ -5,11 +5,11 @@ namespace Library_Managment_Project.Interface
     public interface IMemberService
     {
         public Task<PaginatedList<GetAllMembersResponse>> GetAllAsync(int pageNumber, int pageSize);
-        public Task<GetMemberByNumberResponse> GetByNumberAsync(long number);
+        public Task<GetMemberByNumberResponse> GetByNumberAsync(int number);
         public Task<PaginatedList<GetLoanedBooksResponse>> GetLoanedAsync(int memberId, int pageNumber, int pageSize);
         public Task<PaginatedList<GetCurrentLoansResponse>> GetCurrentLoansAsync(int memberId, int pageNumber, int pageSize);
         public Task<AddMemberResponse> AddAsync(AddMemberRequest request);
         public Task<UpdateMemberResponse> UpdateAsync(UpdateMemberRequest request);
-        public Task<bool> DeleteAsync(long memberNumber);
+        public Task<bool> DeleteAsync(int memberNumber);
     }
 }

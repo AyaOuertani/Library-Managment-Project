@@ -13,7 +13,7 @@ namespace Library_Managment_Project.DTOs.MemberDTOs
         public List<string>? Bookloaned { get; set; }
         public DateTime CreateAt { get; set; }
         public DateTime UpdateAt { get; set; }
-        public GetAllMembersResponse (long memberNumber, string firstName, string lastName, string email, int phoneNumber, MemberShipType memberShipType, List<string> BookLoaneds,DateTime createDate, DateTime updateDate)
+        public GetAllMembersResponse (int memberNumber, string firstName, string lastName, string email, int phoneNumber, MemberShipType memberShipType, List<string> BookLoaned,DateTime createDate, DateTime updateDate)
         {
             MemberNumber = memberNumber;
             FirstName = firstName;
@@ -21,10 +21,10 @@ namespace Library_Managment_Project.DTOs.MemberDTOs
             Email = email;
             PhoneNumber = phoneNumber;
             MemberShipType = memberShipType;
-            Bookloaned = bookLoaned;
+            Bookloaned = BookLoaned;
             CreateAt = createDate;
             UpdateAt = updateDate;
-            Bookloaned = BookLoaneds;
+
         }
     }
 }

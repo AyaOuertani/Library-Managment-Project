@@ -4,22 +4,22 @@ namespace Library_Managment_Project.DTOs.MemberDTOs
 {
     public class AddMemberRequest
     {
-        public int MemberId { get; set; }
-        public int MemberNumber { get; set; }
+
+        
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
         public int PhoneNumber {  get; set; }
         public  MemberShipType MemberShipType { get; set; }
-        public AddMemberRequest(int memberId, int memberNumber, string firstName, string lastName, string email, int phoneNumber , MemberShipType memberShipType)
+        public string Password { get; set; }
+        public AddMemberRequest( string firstName, string lastName, string email, int phoneNumber , MemberShipType memberShipType , string password )
         {
-            MemberId = memberId;
-            MemberNumber = memberNumber;
             FirstName = firstName;
             LastName = lastName;
             Email = email;
             PhoneNumber = phoneNumber;
-            MemberShipType = memberShipType;    
+            MemberShipType = memberShipType;   
+            Password = password;
         }
     }
 }

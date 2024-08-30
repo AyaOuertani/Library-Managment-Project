@@ -6,16 +6,17 @@ using Microsoft.EntityFrameworkCore;
 using Library_Managment_Project.Service;
 using System.Security.Cryptography;
 using Library_Managment_Project.Enum;
+using Library_Managment_Project.Extensions;
 
 namespace Library_Managment_Project.Service
 {
     public class UserService : IUserService
     {
         #region Variables+Constructor
-        private readonly ApplicationDBcontext _dbcontext;
+        private readonly ApplicationDBcontext _dbContext;
         public UserService(ApplicationDBcontext context)
         {
-            _dbcontext = context;
+            _dbContext = context;
         }
         #endregion
 
@@ -25,7 +26,7 @@ namespace Library_Managment_Project.Service
             bool userExists;
             if (request.Role == Enum.UserRole.Librarian)
             {
-                userExists = await _dbcontext.Librarian.AnyAsync(u => u.Email == request.Email);
+                userExists = await _dbContext.Librarian.AnyAsync(u => u.Email == request.Email);
                 if (userExists)
                 {
                     return false;
@@ -35,36 +36,41 @@ namespace Library_Managment_Project.Service
                     FirstName = request.FirstName,
                     LastName = request.LastName,
                     Email = request.Email,
-                    phone = request.PhoneNumber,
+                    Phone = request.PhoneNumber,
                     Role = request.Role,
-                    Password = BCrypt.Net.BCrypt.HashPassword(request.Password)
+                    Password = BCrypt.Net.BCrypt.HashPassword(request.Password),
+                    CreateAt = DateTime.Now,
+                    UpdateAt = DateTime.Now
                 };
 
-                _dbcontext.Librarian.Add(newLibrarian);
+                _dbContext.Librarian.Add(newLibrarian);
             }
             else if (request.Role == Enum.UserRole.Member)
             {
-                userExists = await _dbcontext.Member.AnyAsync(u => u.Email == request.Email);
+                userExists = await _dbContext.Member.AnyAsync(u => u.Email == request.Email);
                 if (userExists)
                 {
                     return false;
                 }
                 Member newMember = new Member
                 {
-                    MemberCode = await GenerateUniqueMemberCodeAsync(),
+                    MemberCode = await DIExtension.GenerateUniqueMemberCodeAsync(_dbContext),
                     FirstName = request.FirstName,
                     LastName = request.LastName,
                     Email = request.Email,
-                    phone = request.PhoneNumber,
+                    Phone = request.PhoneNumber,
                     Role = request.Role,
-                    Password = BCrypt.Net.BCrypt.HashPassword(request.Password)
+                    Password = BCrypt.Net.BCrypt.HashPassword(request.Password),
+                     CreateAt = DateTime.Now,
+                    UpdateAt = DateTime.Now
                 };
 
-                _dbcontext.Member.Add(newMember);
+                _dbContext.Member.Add(newMember);
             }            
             else if (request.Role == Enum.UserRole.Admin)
-            {
-                userExists = await _dbcontext.Admin.AnyAsync(u => u.Email == request.Email);
+            {   if(await _dbContext.Admin.CountAsync()>0)
+                    throw new System.Exception("There is already an admin");
+                userExists = await _dbContext.Admin.AnyAsync(u => u.Email == request.Email);
                 if (userExists)
                 {
                     return false;
@@ -74,17 +80,19 @@ namespace Library_Managment_Project.Service
                     FirstName = request.FirstName,
                     LastName = request.LastName,
                     Email = request.Email,
-                    phone = request.PhoneNumber,
+                    Phone = request.PhoneNumber,
                     Role = request.Role,
-                    Password = BCrypt.Net.BCrypt.HashPassword(request.Password)
+                    Password = BCrypt.Net.BCrypt.HashPassword(request.Password),
+                    CreateAt = DateTime.Now,
+                    UpdateAt = DateTime.Now
                 };
-                _dbcontext.Admin.Add(newAdmin);
+                _dbContext.Admin.Add(newAdmin);
             }
             else
             {
                 return false;
             }
-            await _dbcontext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync();
             return true;
         }
         #endregion
@@ -97,7 +105,7 @@ namespace Library_Managment_Project.Service
             switch (request.Role)
             {
                 case UserRole.Librarian:
-                    Librarian? librarian = await _dbcontext.Librarian.FirstOrDefaultAsync(l => l.Email == request.Email);
+                    Librarian? librarian = await _dbContext.Librarian.FirstOrDefaultAsync(l => l.Email == request.Email);
                     if (librarian != null)
                     {
                         passwordIsValid = BCrypt.Net.BCrypt.Verify(request.Password, librarian.Password);
@@ -105,7 +113,7 @@ namespace Library_Managment_Project.Service
                     break;
 
                 case UserRole.Admin:
-                    Admin? admin = await _dbcontext.Admin.FirstOrDefaultAsync(a => a.Email == request.Email);
+                    Admin? admin = await _dbContext.Admin.FirstOrDefaultAsync(a => a.Email == request.Email);
                     if (admin != null)
                     {
                         passwordIsValid = BCrypt.Net.BCrypt.Verify(request.Password, admin.Password);
@@ -113,7 +121,7 @@ namespace Library_Managment_Project.Service
                     break;
 
                 case UserRole.Member:
-                    Member? member = await _dbcontext.Member.FirstOrDefaultAsync(m => m.Email == request.Email);
+                    Member? member = await _dbContext.Member.FirstOrDefaultAsync(m => m.Email == request.Email);
                     if (member != null)
                     {
                         passwordIsValid = BCrypt.Net.BCrypt.Verify(request.Password, member.Password);
@@ -129,27 +137,6 @@ namespace Library_Managment_Project.Service
 
         #endregion
 
-        #region GenerateCodeMember
-        public async Task<int> GenerateUniqueMemberCodeAsync()
-        {
-            int newMemberCode;
-            bool isUnique = false;
-            do
-            {
-                newMemberCode = GenerateRandomInt();
-                isUnique = !await _dbcontext.Member.AnyAsync(u => u.MemberCode == newMemberCode);
-            }
-            while (!isUnique);
-
-            return newMemberCode;
-        }
-        private int GenerateRandomInt()
-        {
-            byte[] buffer = new byte[8];
-            RandomNumberGenerator.Fill(buffer);
-            return Math.Abs(BitConverter.ToInt32(buffer, 0));
-        }
-        #endregion
 
     }
 }

@@ -25,19 +25,19 @@ namespace LibraryManagment.Data
             modelBuilder.Entity<Librarian>().HasIndex(l => l.Email)
                                             .IsUnique();
 
-            modelBuilder.Entity<Librarian>().HasIndex(l => l.PhoneNumber)
+            modelBuilder.Entity<Librarian>().HasIndex(l => l.Phone)
                                             .IsUnique();
 
             modelBuilder.Entity<Admin>().HasIndex(a => a.Email)
                                         .IsUnique();
 
-            modelBuilder.Entity<Admin>().HasIndex(a => a.PhoneNumber)
+            modelBuilder.Entity<Admin>().HasIndex(a => a.Phone)
                                         .IsUnique();
 
             modelBuilder.Entity<Member>().HasIndex(m => m.Email)
                                          .IsUnique();
 
-            modelBuilder.Entity<Member>().HasIndex(m => m.PhoneNumber)
+            modelBuilder.Entity<Member>().HasIndex(m => m.Phone)
                                          .IsUnique();
 
             modelBuilder.Entity<LoansBook>().HasKey(l => l.Id);

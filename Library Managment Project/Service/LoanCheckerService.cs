@@ -36,7 +36,7 @@ namespace Library_Managment_Project.Service
                 var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDBcontext>();
 
                 var overdueLoans = dbContext.LoansBooks
-                    .Where(l => l.DateOfReturn < DateTime.Now  )
+                    .Where(l => l.DateOfReturn < DateTime.Now  && l.LoanStatus == Enum.StatusOfLoans.Pending)
                     .ToList();
 
                 foreach (var loan in overdueLoans)

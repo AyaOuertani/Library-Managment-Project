@@ -2,15 +2,15 @@
 {
     public class GetAllLibrarianResponse
     {
-        public int LibarianId { get; set; }
+        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
         public int PhoneNumber { get; set; }
         public string WorkSchedule { get; set; }
-        public GetAllLibrarianResponse(int libarianId, string firstName, string lastName, string email, int phoneNumber, string workSchedule)
+        public GetAllLibrarianResponse(int LibrarianId, string firstName, string lastName, string email, int phoneNumber, string workSchedule)
         {
-            LibarianId = libarianId;
+            Id = LibrarianId;
             FirstName = firstName;
             LastName = lastName;
             Email = email;

@@ -138,7 +138,7 @@ namespace Library_Managment_Project.Service
                 Code = book.Code,
                 Auther = book.Auther,
                 Qte = book.Qte,
-                About = book.Auther,
+                About = book.About,
                 Category = book.Category,
                 PublishDate = book.PublishDate,
                 CreatedDate = DateTime.Now,
@@ -167,9 +167,12 @@ namespace Library_Managment_Project.Service
             Book? bookInDb = await _dbcontext.Book.FindAsync(book.Id);
             if (bookInDb == null)
                 throw new KeyNotFoundException("Book not found");
-            bookInDb.Qte = book.Qte;
-            bookInDb.Qte = book.Qte;
-            bookInDb.About = book.About;
+            bookInDb.Qte = book.Qte?? bookInDb.Qte;
+            bookInDb.About = book.About?? bookInDb.About;
+            bookInDb.Category = book.Category?? bookInDb.Category;
+            bookInDb.Title = book.Title?? bookInDb.Title;
+            bookInDb.Auther = book.Author?? bookInDb.Auther;
+            bookInDb.Code= book.Code?? bookInDb.Code;
             bookInDb.UpdatedDate = DateTime.Now;
             await _dbcontext.SaveChangesAsync();
             return new UpdateBookResponse(bookInDb.Id,

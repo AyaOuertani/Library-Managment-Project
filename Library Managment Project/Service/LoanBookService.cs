@@ -57,7 +57,7 @@ namespace Library_Managment_Project.Service
 
         public async Task<string> ReturnBook(ReturnLoanedBookRequest returnLoanedBookRequest)
         {
-            LoansBook loanBook = await _context.
+            LoansBook? loanBook = await _context.
                                      LoansBooks.
                                      FirstOrDefaultAsync(loanBookSelected =>  loanBookSelected.Book.Code == returnLoanedBookRequest.BookCode && 
                                                                               loanBookSelected.Member.MemberCode == returnLoanedBookRequest.MemberCode &&
