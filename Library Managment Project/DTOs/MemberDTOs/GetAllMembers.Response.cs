@@ -4,7 +4,7 @@ namespace Library_Managment_Project.DTOs.MemberDTOs
 {
     public class GetAllMembersResponse
     {
-        public long MemberNumber { get; set; }
+        public int MemberNumber { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
